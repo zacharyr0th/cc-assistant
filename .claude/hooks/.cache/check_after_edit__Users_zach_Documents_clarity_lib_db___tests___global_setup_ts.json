@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "fileHash": "2240f87553b5c47318aa814fda141bb8552e7a86069954496e75dda6ff08211c",
+  "timestamp": 1761783191097,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.206000000000003,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/__tests__/global-setup.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 204.712083,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "6f53352309bad16ad24602e9050a1ed5dba7f4ca1b159ad0af6d80adbeedb863",
+  "timestamp": 1761783401699,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2943.115166,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4483749999999986,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/hooks/contexts/auth-context.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 51.280833,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

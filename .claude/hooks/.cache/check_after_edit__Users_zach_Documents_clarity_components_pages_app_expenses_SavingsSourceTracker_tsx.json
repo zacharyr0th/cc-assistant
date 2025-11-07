@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "cc59600643c70ed644cb24a645bb050e7fc11e80e193f81ef79d5ae9415a8d86",
+  "timestamp": 1762209524986,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2063.592167,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1837909999999994,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/app/expenses/SavingsSourceTracker.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 94.504041,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

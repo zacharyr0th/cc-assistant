@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "566da996f59ca12e9f56b8e8fe1d34c6d581a0751c90891cd113aadea259d2c7",
+  "timestamp": 1761762725489,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 4275.01625,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.5332500000000095,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/landing/sections/VideoDemoSection.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 66.61587500000002,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "fileHash": "e66601e5343bb756f9069ca075fd41aac99d3604fbb53044d2b257f6c935ecad",
+  "timestamp": 1761803966135,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 55,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 56,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 61,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 63,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 64,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      }
+    ]
+  }
+}

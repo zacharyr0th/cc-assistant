@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "3805f88e97583296a0bfa1ed17e99b3b8cfbd21fca6423ae95c9bc737240d85d",
+  "timestamp": 1762032729680,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1849.2834169999999,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2177499999999952,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/stores/dashboard-store.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 49.651208999999994,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

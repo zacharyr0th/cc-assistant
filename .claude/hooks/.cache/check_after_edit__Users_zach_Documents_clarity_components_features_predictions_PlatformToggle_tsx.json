@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "5c5dba4d59c4702a322acf1f24c18ac67a24fe5d8f27918f2eac59c646427e13",
+  "timestamp": 1762096978949,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1862.58825,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4888750000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/predictions/PlatformToggle.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 89.60570899999999,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

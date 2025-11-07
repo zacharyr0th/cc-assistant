@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "a88efd7046d6ff190f65d3fec310992bd3460bbf5322e3da1c2cb349666a833e",
+  "timestamp": 1761766868111,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2209.453542,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 3.275624999999991,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/content/library/EntryCard.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 52.73745799999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

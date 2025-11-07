@@ -1,0 +1,186 @@
+{
+  "version": "1",
+  "fileHash": "c39dfe204003e8071fe41ef994698f3f1a3545bb2e42e98c051468a89cb18ebe",
+  "timestamp": 1762209557376,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 46,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 50,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 53,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 54,
+        "description": "Deep nesting detected (level 6)",
+        "value": 6,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 63,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 64,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 66,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 68,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 73,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 80,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 84,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 88,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 94,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 98,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 104,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 108,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 114,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 116,
+        "description": "Deep nesting detected (level 6)",
+        "value": 6,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 121,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 127,
+        "description": "Deep nesting detected (level 7)",
+        "value": 7,
+        "threshold": 3
+      },
+      {
+        "type": "long_function",
+        "severity": "warning",
+        "line": 20,
+        "description": "Function 'PropertyCard' is too long (117 lines, max: 50)",
+        "value": 117,
+        "threshold": 50
+      },
+      {
+        "type": "high_complexity",
+        "severity": "warning",
+        "line": 20,
+        "description": "Function 'PropertyCard' has high complexity (16, max: 15)",
+        "value": 16,
+        "threshold": 15
+      }
+    ]
+  }
+}

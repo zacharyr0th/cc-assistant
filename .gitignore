@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# User-specific settings (keep settings.json template)
+.claude/settings.local.json
+
+# Logs
+*.log

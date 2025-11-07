@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "f59d862a997ddc989ffd3b3c481a5b749abdc8be0c5608d68dc963a8dabc8209",
+  "timestamp": 1762214296507,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2645.302166,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1192499999999939,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/user/mfa/verify/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 50.81812500000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

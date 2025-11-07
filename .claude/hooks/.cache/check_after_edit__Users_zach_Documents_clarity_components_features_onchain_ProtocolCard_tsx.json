@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "629898945522c414f1d3de6ba499ef3528605645432f9ef6fd7428d7c4710763",
+  "timestamp": 1762143874759,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2376.999209,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3335410000000039,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/onchain/ProtocolCard.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 48.674292,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

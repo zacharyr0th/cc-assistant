@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "752669b3040ca3b8ca5e4f20ecb688053b87ef237e5be2110894d55c03d23145",
+  "timestamp": 1762141213358,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1945.6973750000002,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0169579999999954,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/pendle/PendleSummary.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 96.358292,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "fileHash": "bab579d6b008c6047de5dc69eab0d703c386eaca1dd07bdae84ca5ca7aeea5e0",
+  "timestamp": 1762209081810,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 2,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 3,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 14,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 78,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 97,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

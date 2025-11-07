@@ -1,0 +1,74 @@
+{
+  "version": "1",
+  "fileHash": "e296b5d5f1c9868392c552ddc00c1fc07f202dff50f94ccb683d670cf327335f",
+  "timestamp": 1761763369071,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 149,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 196,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 204,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 209,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 213,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 218,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 346,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 350,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "46f989e23f5c98eb1b69215e71a59f8221f001550a3f104b6645e0838767598d",
+  "timestamp": 1762137388721,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2597.3435,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2109160000000045,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/services/sync/kalshi-sync.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": false,
+        "duration": 101.69075,
+        "output": "lib/market-data/services/sync/kalshi-sync.ts:23:7 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This variable CONCURRENT_REQUESTS is unused.\n  \n    22 │ const KALSHI_API_BASE = \"https://api.elections.kalshi.com/trade-api/v2\";\n  > 23 │ const CONCURRENT_REQUESTS = 5; // Number of parallel API requests\n       │       ^^^^^^^^^^^^^^^^^^^\n    24 │ const RATE_LIMIT_DELAY_MS = 100; // 10 req/sec max\n    25 │ const TOP_MARKETS_BULK_SYNC = 10000; // Sync top 10,000 markets in bulk (remainder lazy-loaded on-demand)\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend CONCURRENT_REQUESTS with an underscore.\n  \n     21  21 │   \n     22  22 │   const KALSHI_API_BASE = \"https://api.elections.kalshi.com/trade-api/v2\";\n     23     │ - const·CONCURRENT_REQUESTS·=·5;·//·Number·of·parallel·API·requests\n         23 │ + const·_CONCURRENT_REQUESTS·=·5;·//·Number·of·parallel·API·requests\n     24  24 │   const RATE_LIMIT_DELAY_MS = 100; // 10 req/sec max\n     25  25 │   const TOP_MARKETS_BULK_SYNC = 10000; // Sync top 10,000 markets in bulk (remainder lazy-loaded on-demand)\n  \n\ncheck ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  × Some errors were emitted while applying fixes.\n  \n\n",
+        "severity": "error"
+      }
+    ],
+    "output": ""
+  }
+}

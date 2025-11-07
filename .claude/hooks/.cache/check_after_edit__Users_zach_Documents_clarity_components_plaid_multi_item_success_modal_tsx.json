@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "9befa51d2d702c5adc248fdc80833ab457bd9b1d21e2eaddcea4262aa5c15bf2",
+  "timestamp": 1761776065104,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2059.629292,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4560829999999925,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/plaid/multi-item-success-modal.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.865375,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

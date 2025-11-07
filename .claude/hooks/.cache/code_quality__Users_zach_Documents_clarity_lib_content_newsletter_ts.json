@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "fileHash": "14557314ea42c877d172e67be0f54d2e9a1430c4d7cb7ffa07f00f02e0c06330",
+  "timestamp": 1761766798281,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "any_type",
+        "severity": "info",
+        "line": 4,
+        "description": "Use of 'any' type reduces type safety"
+      },
+      {
+        "type": "any_type",
+        "severity": "info",
+        "line": 5,
+        "description": "Use of 'any' type reduces type safety"
+      },
+      {
+        "type": "any_type",
+        "severity": "info",
+        "line": 10,
+        "description": "Use of 'any' type reduces type safety"
+      }
+    ]
+  }
+}

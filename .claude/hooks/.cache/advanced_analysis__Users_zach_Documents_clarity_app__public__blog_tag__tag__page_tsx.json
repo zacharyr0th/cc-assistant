@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "fileHash": "22068ac3d142fda76eeb18d052ca4aa5d46a61d169293f01efead0c3a9f5ab8a",
+  "timestamp": 1761802352083,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "non_null_assertion",
+        "severity": "warning",
+        "line": 50,
+        "description": "Non-null assertion (!) can cause runtime errors",
+        "suggestion": "Use optional chaining (?.) or explicit null check instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 50,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 70,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 74,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

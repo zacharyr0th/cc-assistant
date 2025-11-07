@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "b168ba886ff9ac5cae987e5d5a3c7c8770d2c2b629cc63cf9f1ea73cc0165f27",
+  "timestamp": 1761767441201,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2690.569959,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.8586250000000035,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/public/cron/cleanup/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 67.66250000000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

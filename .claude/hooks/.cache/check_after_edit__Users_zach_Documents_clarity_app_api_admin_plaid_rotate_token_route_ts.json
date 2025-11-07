@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "b298b984041f94dcb711a59001982d73a156333fc70580d61d964ab63c1a8db8",
+  "timestamp": 1761770627819,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2623.018875,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 4.655790999999994,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/admin/plaid/rotate-token/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 130.26437500000003,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

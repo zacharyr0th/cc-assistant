@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "db1baf791d66c388177019d750359e963a2034eabc799fe773319b48cf454300",
+  "timestamp": 1762036464645,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1765.075584,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0423329999999993,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/markets/_components/CryptoView.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 42.033584,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

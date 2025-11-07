@@ -1,0 +1,24 @@
+{
+  "version": "1",
+  "fileHash": "c70a08b576c1f671ec52e8ad2213e9572c5fb390c38809aa8e1c6fb5cae12dfa",
+  "timestamp": 1762099196545,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "utility_reimplementation",
+        "severity": "warning",
+        "line": 94,
+        "description": "Currency formatting may already exist in lib/utils",
+        "suggestion": "Check @/lib/utils/formatters before implementing. Import with: import { ... } from \"@/lib/utils/formatters\""
+      },
+      {
+        "type": "utility_reimplementation",
+        "severity": "warning",
+        "line": 129,
+        "description": "Date formatting/parsing may already exist in lib/utils",
+        "suggestion": "Check @/lib/utils/date or @/lib/utils/formatters before implementing. Import with: import { ... } from \"@/lib/utils/date or @/lib/utils/formatters\""
+      }
+    ]
+  }
+}

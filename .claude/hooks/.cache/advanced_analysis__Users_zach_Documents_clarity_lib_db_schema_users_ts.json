@@ -1,0 +1,34 @@
+{
+  "version": "1",
+  "fileHash": "e971f31c5ebb41b29365d575f7b38a040361ea5626c68518d15b8379c677e7ae",
+  "timestamp": 1761773911620,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 222,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      },
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 223,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      },
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 224,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

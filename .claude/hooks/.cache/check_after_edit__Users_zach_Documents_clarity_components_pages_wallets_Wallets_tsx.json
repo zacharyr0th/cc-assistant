@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "556979fb2cfd51dd213dd71800f80cb6d991b8e9394cb40f68d3a0a8d438b7e1",
+  "timestamp": 1761762694926,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2450.870792,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 3.9221670000000017,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/wallets/Wallets.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 60.069042000000024,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

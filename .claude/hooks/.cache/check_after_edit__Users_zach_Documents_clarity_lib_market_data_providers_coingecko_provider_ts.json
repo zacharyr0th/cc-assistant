@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "fa816ee6baad2f77d07d4f75768a05acbca38e7af618087825d2d6371bd9341a",
+  "timestamp": 1762033117862,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1828.637292,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1112080000000049,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/providers/coingecko-provider.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": false,
+        "duration": 103.99450000000002,
+        "output": "lib/market-data/providers/coingecko-provider.ts:188:12 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This variable error is unused.\n  \n    186 │       },\n    187 │     };\n  > 188 │   } catch (error) {\n        │            ^^^^^\n    189 │     return { total: 0, categories: {} };\n    190 │   }\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend error with an underscore.\n  \n    186 186 │         },\n    187 187 │       };\n    188     │ - ··}·catch·(error)·{\n        188 │ + ··}·catch·(_error)·{\n    189 189 │       return { total: 0, categories: {} };\n    190 190 │     }\n  \n\ncheck ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  × Some errors were emitted while applying fixes.\n  \n\n",
+        "severity": "error"
+      }
+    ],
+    "output": ""
+  }
+}

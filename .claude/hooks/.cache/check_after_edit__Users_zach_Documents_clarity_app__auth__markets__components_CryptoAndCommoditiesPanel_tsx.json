@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "6de7204d84c89db53e62f0d490872f0cf90a6ff89443d53c577de7aa93f83e28",
+  "timestamp": 1762098092115,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1925.5728330000002,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4083749999999995,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/markets/_components/CryptoAndCommoditiesPanel.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 45.927291,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "a0335cff217f50890682f4ba6919d2d816dbdf2ffcf81a39d7a7cc61406da7e0",
+  "timestamp": 1761839226703,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 2489.812334,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.9108329999999967,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/transactions/ExportPDFButton.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 54.813917,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "074775c3a2e37b4a144d61b77b1af43d6eba1ca9a265f4c2fb4be8e50e1fcbfb",
+  "timestamp": 1762145397730,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 12967.424500000001,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 3.5503750000000025,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/oneinch/OneInchClient.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 53.107,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

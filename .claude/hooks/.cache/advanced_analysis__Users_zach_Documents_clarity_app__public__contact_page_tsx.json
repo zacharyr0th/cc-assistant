@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "fileHash": "9647fdc777ebdba6300c26216d9d4eb8f4aad10bd1a7e3f7e62f0ee652060c70",
+  "timestamp": 1761774492867,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 45,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 90,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "e296b5d5f1c9868392c552ddc00c1fc07f202dff50f94ccb683d670cf327335f",
+  "timestamp": 1761763378193,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 9118.972584000001,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0454170000000147,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/transactions/filters.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 52.422916999999984,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

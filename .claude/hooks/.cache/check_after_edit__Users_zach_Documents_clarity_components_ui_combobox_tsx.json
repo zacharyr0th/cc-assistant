@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "c2105c2c34d296acd1725e28d32194e22d6f441a900b39f35259ee777f3cbcbe",
+  "timestamp": 1761806657766,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2685.391416,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.6785420000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/combobox.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 41.394625000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

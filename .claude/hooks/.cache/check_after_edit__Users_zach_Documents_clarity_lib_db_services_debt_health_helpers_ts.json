@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "11a6336674459bba75b4c3de8ed93af8ea5e2816cf6bec30b8a2e3ce15780623",
+  "timestamp": 1761841679362,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1998.274833,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0917080000000041,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/debt-health/helpers.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 49.989124999999994,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

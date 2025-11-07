@@ -1,0 +1,106 @@
+{
+  "version": "1",
+  "fileHash": "a2025cba2918556c4e5e5cd710581ab4761806eb9be140f7a6b7a2ff6bdddb00",
+  "timestamp": 1762126368652,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 15,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 90,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 122,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 157,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 173,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 187,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 90,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 122,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 187,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 82,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 106,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 108,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "58acff3fcec6c969650bc77833b8f2fc75980be9f52ffd0def9650bfe296433a",
+  "timestamp": 1762038188588,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1776.853375,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.142583000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/scripts/test-market-endpoints.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 85.15199999999999,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

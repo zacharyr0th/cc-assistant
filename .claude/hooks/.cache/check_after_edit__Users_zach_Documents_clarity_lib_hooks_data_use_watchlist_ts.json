@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "72b96ce1e6ec58051c78bcba3c778a40d6eca0171cef040b82845d2cf3797610",
+  "timestamp": 1762037279915,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1998.9073329999999,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 3.2748749999999944,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/hooks/data/use-watchlist.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 63.13570899999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

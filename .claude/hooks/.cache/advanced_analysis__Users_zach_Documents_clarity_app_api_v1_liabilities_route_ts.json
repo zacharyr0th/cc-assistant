@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "fileHash": "b6235ca7fce966314d3684c596318f924495fcf7887edffdf4b0b55e23a8a761",
+  "timestamp": 1761765763645,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 27,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 48,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

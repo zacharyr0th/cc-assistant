@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "ec3f709d29a8b71c597b18f8e87687f3fe40603bbf2ddf15b7ba95843d267415",
+  "timestamp": 1762087772307,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1964.538833,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.190916999999999,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/performance/_components/PerformancePage.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 50.104292,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

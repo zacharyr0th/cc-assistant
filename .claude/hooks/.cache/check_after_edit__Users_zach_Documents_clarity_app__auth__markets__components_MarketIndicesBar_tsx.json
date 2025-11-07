@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "6f8ec8853f0f6e1b02827c98c9a502e75edcd44afd2ef65d9d918ce31c4d655d",
+  "timestamp": 1762036385813,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2291.270583,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1397089999999963,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/markets/_components/MarketIndicesBar.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 87.88295799999999,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

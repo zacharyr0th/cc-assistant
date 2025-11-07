@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "71cd75ce9abcaac6ca119686f1edef8d63fcb118b79c156ed80e137469dc42ac",
+  "timestamp": 1762213411331,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 15923.064124999999,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.1797909999999945,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/utils/async/circuit-breaker.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 94.81012499999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

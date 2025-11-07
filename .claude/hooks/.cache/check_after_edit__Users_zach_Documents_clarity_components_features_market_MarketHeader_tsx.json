@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "2a445561d660ea321b9590752440b2caa8122259e25f6ff6891037e2e80060d3",
+  "timestamp": 1761844590830,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 2281.186167,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.263458,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/MarketHeader.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 100.014208,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "fb7512000a1a95ec3084569e80b73890753da6ead9ba71c55a9972829f9621b3",
+  "timestamp": 1762036418116,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2385.51725,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.959875000000004,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/markets/_components/MarketTable.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 93.45583300000001,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

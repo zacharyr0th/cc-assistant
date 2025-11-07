@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "fileHash": "45b57a778f0c9b70a9a6ab8e1c229640707a79a91ef9dca969edd880d77c70cc",
+  "timestamp": 1761805952344,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "non_null_assertion",
+        "severity": "warning",
+        "line": 21,
+        "description": "Non-null assertion (!) can cause runtime errors",
+        "suggestion": "Use optional chaining (?.) or explicit null check instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

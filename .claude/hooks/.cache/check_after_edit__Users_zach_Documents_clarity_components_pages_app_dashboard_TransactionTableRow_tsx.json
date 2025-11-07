@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "1d56d8d8e21092cee4ef26a7b4b4acb7de0c0851b81eec1aa1f16163b5e4f0fd",
+  "timestamp": 1762196655103,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2075.676625,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.489208000000005,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/app/dashboard/TransactionTableRow.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 49.181749999999994,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

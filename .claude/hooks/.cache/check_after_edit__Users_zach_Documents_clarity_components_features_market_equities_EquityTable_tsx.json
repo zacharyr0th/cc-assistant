@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "14e8984dd6710a08a231b004c272e8aa1d6ec9cb46f6e7b5d29cacfe761cfb29",
+  "timestamp": 1762206526595,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2176.459125,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.563041999999996,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/equities/EquityTable.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 53.31154099999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

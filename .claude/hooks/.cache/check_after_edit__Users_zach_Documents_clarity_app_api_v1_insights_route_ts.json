@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "053a165b7c4ff764e4073f9d4601a6e8ad70cae0546da69f017b53208e857b18",
+  "timestamp": 1761780101084,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2306.685583,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.6704170000000005,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/insights/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": false,
+        "duration": 192.277209,
+        "output": "app/api/v1/insights/route.ts:50:6 lint/correctness/noUnusedVariables ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  × This type alias FinancialInsightsDataLegacy is unused.\n  \n    48 │  * Legacy type reference - now imported from insights-cached\n    49 │  */\n  > 50 │ type FinancialInsightsDataLegacy = {\n       │      ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    51 │   userId: string;\n    52 │   generatedAt: string;\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n\napp/api/v1/insights/route.ts:71:16 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━━━━━━━━━━━\n\n  × This function calculateFinancialInsights is unused.\n  \n    69 │  * Extracted for Redis caching\n    70 │  */\n  > 71 │ async function calculateFinancialInsights(\n       │                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n    72 │   userId: string,\n    73 │   periodDays: number,\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend calculateFinancialInsights with an underscore.\n  \n     69  69 │    * Extracted for Redis caching\n     70  70 │    */\n     71     │ - async·function·calculateFinancialInsights(\n         71 │ + async·function·_calculateFinancialInsights(\n     72  72 │     userId: string,\n     73  73 │     periodDays: number,\n  \n\ncheck ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  × Some errors were emitted while applying fixes.\n  \n\n",
+        "severity": "error"
+      }
+    ],
+    "output": ""
+  }
+}

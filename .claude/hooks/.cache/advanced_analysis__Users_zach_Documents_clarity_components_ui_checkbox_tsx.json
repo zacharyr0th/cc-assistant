@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "fileHash": "6bbbbf79fd1f92f10f28c23c33109b906489335b4c2ca74106d35d24c715c11c",
+  "timestamp": 1761800692729,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 3,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 5,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 8,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      },
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 13,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "3ec55721c25d3cab17e2fdcf118e4ddaac1db4d23d8b3f5a9f7a1ca3634b1ea8",
+  "timestamp": 1761762092971,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2073.834958,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 3.5407920000000104,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/calculators/CryptoPortfolioTracker.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 119.62445900000003,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

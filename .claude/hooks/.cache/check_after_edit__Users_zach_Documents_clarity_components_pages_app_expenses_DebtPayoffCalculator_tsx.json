@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "77de6f6f254755030ea6d52113f7cbc5e91a0a98e03ce22b40c1200c0e2ad631",
+  "timestamp": 1762209538250,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2083.63525,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.7512919999999923,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/app/expenses/DebtPayoffCalculator.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 104.19033400000001,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

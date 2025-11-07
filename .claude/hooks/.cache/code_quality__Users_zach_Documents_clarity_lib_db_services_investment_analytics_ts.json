@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "fileHash": "d2fc230210229ca0430b7078ff79ed9c5e3567066ad8a39b56205fdd368e05b1",
+  "timestamp": 1761775596252,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 290,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "high_complexity",
+        "severity": "warning",
+        "line": 116,
+        "description": "Function 'for' has high complexity (16, max: 15)",
+        "value": 16,
+        "threshold": 15
+      }
+    ]
+  }
+}

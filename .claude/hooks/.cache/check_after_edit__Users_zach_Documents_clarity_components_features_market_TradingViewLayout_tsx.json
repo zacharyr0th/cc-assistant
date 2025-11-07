@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "7fc4a76a50be3ad6faed289e6283c90d8e830b9e980c916d42326281ab64f407",
+  "timestamp": 1762030548687,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2281.6263329999997,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 0.9763329999999968,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/TradingViewLayout.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 49.305333,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

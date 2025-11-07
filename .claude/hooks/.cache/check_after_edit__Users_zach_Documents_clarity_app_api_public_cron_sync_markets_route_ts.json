@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "94cf1e68b36c03a023adbcc0a4a8143efbb80bb52a8c2310c69a5c2e39308a59",
+  "timestamp": 1762141266840,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1846.080167,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0335830000000001,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/public/cron/sync-markets/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 45.822084000000004,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

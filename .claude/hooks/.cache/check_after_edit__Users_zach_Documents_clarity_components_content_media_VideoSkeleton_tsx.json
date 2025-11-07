@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "7eb1ba09bb086fe67c1e9c7dbe4bb7c67086c2d9421263c3e48292b7d34ef44b",
+  "timestamp": 1761786409734,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2096.002875,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1165829999999985,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/content/media/VideoSkeleton.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 41.954665999999996,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

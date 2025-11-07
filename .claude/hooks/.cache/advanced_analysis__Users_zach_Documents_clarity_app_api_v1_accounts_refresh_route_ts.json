@@ -1,0 +1,34 @@
+{
+  "version": "1",
+  "fileHash": "6363839b55aeae76171614ff806e09037759fe5f555f3292dfbac2b09afe5d52",
+  "timestamp": 1761769080602,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 24,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      },
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 97,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 97,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

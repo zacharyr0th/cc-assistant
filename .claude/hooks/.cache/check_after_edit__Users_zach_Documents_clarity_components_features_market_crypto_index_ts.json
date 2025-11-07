@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "ec85b7837fa1ef592efec027d728a7464310a9f9a9520939ab8fd1c34e3562ef",
+  "timestamp": 1762032056551,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3716.064208,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2126250000000027,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/crypto/index.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.920125,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

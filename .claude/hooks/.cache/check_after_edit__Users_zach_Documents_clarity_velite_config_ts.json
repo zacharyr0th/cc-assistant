@@ -1,0 +1,24 @@
+{
+  "version": "1",
+  "fileHash": "7c36d6324aaa236bf3f5b9e0bf2a77adb99bac50c429fc6d4b2aa4e8f444136a",
+  "timestamp": 1761786098040,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3049579999999992,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/velite.config.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.80324999999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

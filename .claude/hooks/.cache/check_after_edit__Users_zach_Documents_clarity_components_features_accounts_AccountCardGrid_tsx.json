@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "284d67345768107797c5555f32cfd03643f33f0a03aa2285caa2e319b826abed",
+  "timestamp": 1761808351741,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 4379.485792,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0154580000000024,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/accounts/AccountCardGrid.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 45.735917,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

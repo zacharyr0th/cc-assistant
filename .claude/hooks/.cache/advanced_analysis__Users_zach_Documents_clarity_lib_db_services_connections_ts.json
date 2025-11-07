@@ -1,0 +1,58 @@
+{
+  "version": "1",
+  "fileHash": "b4f42bcda93e18e25920bb0cde99d4915b0c6e68667438f92e9f704c41d18e90",
+  "timestamp": 1761804559016,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "unsafe_json_parse",
+        "severity": "warning",
+        "line": 75,
+        "description": "JSON.parse without try-catch can throw",
+        "suggestion": "Wrap in try-catch or use safe parsing utility",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 144,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 170,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 325,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "non_null_assertion",
+        "severity": "warning",
+        "line": 336,
+        "description": "Non-null assertion (!) can cause runtime errors",
+        "suggestion": "Use optional chaining (?.) or explicit null check instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 479,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

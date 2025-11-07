@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "92183ebb05164a04f1005c8429265a82eda2b26cbfa7e1f41e07a1fe2c817be6",
+  "timestamp": 1761841686467,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2239.536916,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.337292000000005,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/tax-calculations/deductions.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 59.262625,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

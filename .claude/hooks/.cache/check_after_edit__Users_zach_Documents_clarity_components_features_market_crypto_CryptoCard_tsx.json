@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "a1220e608763109197fa430b417da3befd549cbeca770f5b999f50b6bafc94d6",
+  "timestamp": 1762033177416,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2340.7581670000004,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1893329999999906,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/crypto/CryptoCard.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.19012500000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

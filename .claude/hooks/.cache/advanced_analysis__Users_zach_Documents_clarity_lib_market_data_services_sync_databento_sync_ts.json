@@ -1,0 +1,58 @@
+{
+  "version": "1",
+  "fileHash": "867ac7a954abb60015eb2bba36d324ca2e1ff907dcc2aad89442a8a4b3604b97",
+  "timestamp": 1762133173375,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 27,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "untracked_timer",
+        "severity": "warning",
+        "line": 221,
+        "description": "Timer/interval created without storing ID for cleanup",
+        "suggestion": "Store ID and clear in cleanup: const id = setInterval(...); return () => clearInterval(id)",
+        "category": "memory"
+      },
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 221,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 277,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 386,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 14,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

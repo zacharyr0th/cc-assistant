@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "7406e664b2b0b4555299cf32f4efa6e73c32e0b35ed558d96d08759cb554fc05",
+  "timestamp": 1761780043774,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2131.387083,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 3.1739999999999924,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/insights/services/insights-cached.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 56.466750000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

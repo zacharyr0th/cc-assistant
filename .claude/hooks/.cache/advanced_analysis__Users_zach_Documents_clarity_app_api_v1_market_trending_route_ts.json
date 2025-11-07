@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "fileHash": "860ae5c4514c3b4d71863ade1528906941e6d0a42476a98c0467a508200e64f9",
+  "timestamp": 1762038582166,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 31,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      }
+    ]
+  }
+}

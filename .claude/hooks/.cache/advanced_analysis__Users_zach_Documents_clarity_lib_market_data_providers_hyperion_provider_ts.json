@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "fileHash": "a64e706b1de8da6521811706d5f3286d71aab1a66202821861df813db18e6a3b",
+  "timestamp": 1762143600193,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 315,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 322,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 183,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 253,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 278,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "7e5431d9b73d2ac218ef99b03dfc2a99013a9a22770bcc0f5e90f5e8bbe298aa",
+  "timestamp": 1761805700542,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 6043.711042,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 0.891416999999997,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/plaid/services/plaid-connection-service.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 43.017292,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

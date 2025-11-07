@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "60b62509bd11a1fb0a4d3d88ea60fa02e1177ce82bf9716bdd4e7fc87e26cc2d",
+  "timestamp": 1762096153603,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2049.790958,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2872500000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/design/colors.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.157416,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

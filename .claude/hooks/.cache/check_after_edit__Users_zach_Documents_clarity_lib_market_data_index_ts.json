@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "b3f6921e8289efc6507b5d4cb3af78f9ae9add76499df1527a5c4c1e53bab99f",
+  "timestamp": 1762038453922,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2152.173292,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0116250000000022,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/index.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 42.01199999999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "fileHash": "d64ec409e87d6860675bbbe8ecd92c0e43fd5c631d2d691775a2dad5aa17f625",
+  "timestamp": 1762084878888,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 33,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      }
+    ]
+  }
+}

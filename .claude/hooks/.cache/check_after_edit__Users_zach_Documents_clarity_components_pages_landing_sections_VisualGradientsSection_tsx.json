@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "b2af11ab3e2d5095488470b55acbcd4defd8690e27f0c96af542f8fbe070e78d",
+  "timestamp": 1761762083379,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2226.5457499999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 8.929667000000052,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/landing/sections/VisualGradientsSection.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 85.245541,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

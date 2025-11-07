@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "fileHash": "e488a23ba2cd6e85cea18409ec5d5943c7b9a8cf7771a4df94b8c6ef8ee7170c",
+  "timestamp": 1762032849767,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "state_update_after_unmount",
+        "severity": "warning",
+        "line": 10,
+        "description": "State update after async operation without cleanup check",
+        "suggestion": "Use cleanup flag: let isMounted = true; ... if (isMounted) setState(...)",
+        "category": "async"
+      },
+      {
+        "type": "parse_int_no_radix",
+        "severity": "warning",
+        "line": 38,
+        "description": "parseInt without radix can produce unexpected results",
+        "suggestion": "Always specify radix: parseInt(value, 10)",
+        "category": "type_safety"
+      },
+      {
+        "type": "parse_int_no_radix",
+        "severity": "warning",
+        "line": 41,
+        "description": "parseInt without radix can produce unexpected results",
+        "suggestion": "Always specify radix: parseInt(value, 10)",
+        "category": "type_safety"
+      },
+      {
+        "type": "parse_int_no_radix",
+        "severity": "warning",
+        "line": 42,
+        "description": "parseInt without radix can produce unexpected results",
+        "suggestion": "Always specify radix: parseInt(value, 10)",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 51,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

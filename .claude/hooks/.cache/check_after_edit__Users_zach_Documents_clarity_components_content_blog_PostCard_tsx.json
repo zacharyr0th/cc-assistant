@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "5e9a8f01cc8abecf0a88b299a29c01d7131fc7f1c5dd9b8116ac4c0524870562",
+  "timestamp": 1761783683594,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2132.7612919999997,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.287542000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/content/blog/PostCard.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.98083299999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

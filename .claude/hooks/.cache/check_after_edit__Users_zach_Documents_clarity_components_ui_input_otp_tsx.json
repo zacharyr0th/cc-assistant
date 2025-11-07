@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "e66601e5343bb756f9069ca075fd41aac99d3604fbb53044d2b257f6c935ecad",
+  "timestamp": 1761803971739,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 5604.3393750000005,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.5837499999999949,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/input-otp.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.911958000000006,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

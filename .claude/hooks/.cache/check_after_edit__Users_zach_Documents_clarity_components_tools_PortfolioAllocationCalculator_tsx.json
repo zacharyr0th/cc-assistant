@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "04093595a26c2cec6d8afe70455784c500a5c36f3698bc54dcef06476ee2afd9",
+  "timestamp": 1761806586967,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2566.9872920000003,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1772080000000003,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/tools/PortfolioAllocationCalculator.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 45.181667,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

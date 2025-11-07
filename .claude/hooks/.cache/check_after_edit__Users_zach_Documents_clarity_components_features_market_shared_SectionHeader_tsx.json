@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "3c505e3ab680c374e3edcb681aaacf810c744c2e433bfd14c45a7dfa0bfa26fd",
+  "timestamp": 1762088160970,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1839.8255419999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3225830000000016,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/shared/SectionHeader.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 41.385540999999996,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

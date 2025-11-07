@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "566f5c4a2497c07c19fb51bfcd6c79aab22738400c529130edd5c068ecef0c5e",
+  "timestamp": 1762085725885,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1977.463333,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 0.9913749999999908,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/performance/_components/DateRangePicker.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.35787500000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

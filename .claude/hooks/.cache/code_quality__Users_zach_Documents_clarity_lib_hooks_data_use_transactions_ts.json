@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "fileHash": "786496400ea37a75506035db139096b26ccc13191100f3e5afff22abdd78bcec",
+  "timestamp": 1761782546198,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 139,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 142,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 150,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "high_complexity",
+        "severity": "warning",
+        "line": 85,
+        "description": "Function 'if' has high complexity (18, max: 15)",
+        "value": 18,
+        "threshold": 15
+      }
+    ]
+  }
+}

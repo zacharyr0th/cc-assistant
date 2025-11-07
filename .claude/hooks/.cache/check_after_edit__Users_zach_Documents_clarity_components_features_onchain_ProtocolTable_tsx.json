@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "c8499a47f3ac1896cd0e225a141367e9043f86050c7b9cc5d5318a5680b3f7f0",
+  "timestamp": 1762143457044,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 17742.551583,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1680419999999998,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/onchain/ProtocolTable.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 55.10054100000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

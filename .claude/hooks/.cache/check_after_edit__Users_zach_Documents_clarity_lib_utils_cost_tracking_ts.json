@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "f888944c4d6a9bc742a6eec41834706dd00b416d813f5eef2023219362eee284",
+  "timestamp": 1762126309058,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1780.599875,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 0.980000000000004,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/utils/cost-tracking.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.761625,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

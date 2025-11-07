@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "b3c14b462c6f48747b5f69c726442fcd2b55af944ef85aba3c948adb74b8f1b8",
+  "timestamp": 1762132229080,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1843.5398329999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2680000000000007,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/expenses/flow/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.285290999999994,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

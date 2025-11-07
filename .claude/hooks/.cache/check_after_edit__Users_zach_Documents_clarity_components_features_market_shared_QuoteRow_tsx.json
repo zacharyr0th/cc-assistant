@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "5bc6f4755c223228c7eb132cbb8090bb2dc28e40a9f8297c0d7be98c53d4b156",
+  "timestamp": 1762088156751,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1873.326541,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.359333999999997,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/shared/QuoteRow.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 88.99158299999999,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

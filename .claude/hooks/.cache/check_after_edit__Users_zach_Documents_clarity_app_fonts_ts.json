@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "3e5e953dda4b41bd0cae4bd6e2d6cf197d4487b49dd9dac083b6a5413b0d6672",
+  "timestamp": 1761782324740,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 8555.732416,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.5066249999999997,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/fonts.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 57.99079200000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "cf17b00e28f9ab254a283b5cec16ced19181578a88d5e526a81e7b5f1853138b",
+  "timestamp": 1762031932512,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 6640.722709,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.616624999999999,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/transactions/components/TransactionLogo.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 89.536625,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

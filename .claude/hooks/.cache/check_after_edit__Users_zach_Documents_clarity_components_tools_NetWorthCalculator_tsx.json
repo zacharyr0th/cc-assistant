@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "77965587912d3711a1129720c1ebf40dc0766030739205b731182d0b13aace66",
+  "timestamp": 1761806983685,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3596.11275,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.5037499999999966,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/tools/NetWorthCalculator.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 61.98016700000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

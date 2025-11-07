@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "8399f2d98a0564451069d6da48da8aa30df0aea7fb246363b57dfd3ae7d3bc75",
+  "timestamp": 1762087786484,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1828.1146250000002,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0786249999999953,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/kalshi-client.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 90.77850000000001,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "4174b5638cc8a1ba0cc0475d9be50794010a929bfda436ff904058d29b7021a0",
+  "timestamp": 1762096639173,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1807.483125,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.039833999999999,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/services/sync/polymarket-sync.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.509916999999994,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

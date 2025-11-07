@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "589d9072b147a0508faef0add6b69d468de3b8d715786187db9bdc0c0d2ab96c",
+  "timestamp": 1761762708537,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2397.7115830000002,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1371249999999975,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/landing/sections/IntegrationsCardsSection.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 108.37070800000001,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

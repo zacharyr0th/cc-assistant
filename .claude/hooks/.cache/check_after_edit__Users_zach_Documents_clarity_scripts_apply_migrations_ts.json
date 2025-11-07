@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "9a4cf0a2934964915d524664a4dc077632809dbb98cddd17d15efd00f35af7f5",
+  "timestamp": 1761805911338,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2952.8364589999996,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0388750000000044,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/scripts/apply-migrations.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 41.968250000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

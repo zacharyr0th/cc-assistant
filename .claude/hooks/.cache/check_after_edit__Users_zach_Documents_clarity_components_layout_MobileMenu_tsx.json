@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "4fa6a945fd90c52cc56f78977844cc127b941e68066d4c3658a771c4cd68e331",
+  "timestamp": 1761838802925,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 2222.000458,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4661249999999981,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/layout/MobileMenu.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 106.56899999999999,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

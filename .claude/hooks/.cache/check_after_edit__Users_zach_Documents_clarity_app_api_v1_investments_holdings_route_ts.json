@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "5b70038497287065dd12299b642e64d11ba3e085a31c7e7922602f6e74a1476b",
+  "timestamp": 1761788735324,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1984.8627499999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3032500000000056,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/investments/holdings/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 49.234083,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

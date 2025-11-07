@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "f6b8120c6fa7231e14f6b1b5f4664b15a48d1b4c82c5196e49449375f28f7ea5",
+  "timestamp": 1761779747947,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2542.0255,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 3.9627080000000063,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/blog/opengraph-image.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 92.94366699999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

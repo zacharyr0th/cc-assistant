@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "fileHash": "5a520a0bd63ad0f8d1b712f5b6540e8b811e1b12200c49ced5b50a986cf59602",
+  "timestamp": 1761787339031,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "non_null_assertion",
+        "severity": "warning",
+        "line": 50,
+        "description": "Non-null assertion (!) can cause runtime errors",
+        "suggestion": "Use optional chaining (?.) or explicit null check instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 50,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

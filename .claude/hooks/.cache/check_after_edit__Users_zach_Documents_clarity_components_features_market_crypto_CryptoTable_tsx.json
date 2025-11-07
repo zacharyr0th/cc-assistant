@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "4dc73ab2a8f162929d4178b49c9c82d300dfb9dcfe0f71d8c0977f7ef54bdfbd",
+  "timestamp": 1762196474775,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2130.6423339999997,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4300829999999962,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/market/crypto/CryptoTable.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 50.769667,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

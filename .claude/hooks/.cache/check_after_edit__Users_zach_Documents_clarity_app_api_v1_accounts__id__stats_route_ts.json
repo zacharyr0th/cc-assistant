@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "d3a351958c1451df298afeead7c153ab16e582a3600521dcf7493404efe82670",
+  "timestamp": 1761788373317,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2279.035042,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3768340000000023,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/accounts/[id]/stats/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 48.058667,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

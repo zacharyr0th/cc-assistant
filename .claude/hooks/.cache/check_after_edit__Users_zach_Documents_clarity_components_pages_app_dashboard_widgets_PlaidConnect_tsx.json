@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "45bccbb65c1a4fa55659750aa9cde6bece070ec3c00267bdf25e3c66a6d79970",
+  "timestamp": 1761771409239,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3515.503292,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.173000000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/pages/app/dashboard/widgets/PlaidConnect.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": false,
+        "duration": 203.02233299999997,
+        "output": "components/pages/app/dashboard/widgets/PlaidConnect.tsx:31:10 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This variable linkSessionId is unused.\n  \n    29 │   const [error, setError] = useState<string | null>(null);\n    30 │   const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n  > 31 │   const [linkSessionId, setLinkSessionId] = useState<string | null>(null);\n       │          ^^^^^^^^^^^^^\n    32 │   const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);\n    33 │   const { user } = useAuthUser();\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend linkSessionId with an underscore.\n  \n     29  29 │     const [error, setError] = useState<string | null>(null);\n     30  30 │     const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n     31     │ - ··const·[linkSessionId,·setLinkSessionId]·=·useState<string·|·null>(null);\n         31 │ + ··const·[_linkSessionId,·setLinkSessionId]·=·useState<string·|·null>(null);\n     32  32 │     const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);\n     33  33 │     const { user } = useAuthUser();\n  \n\ncomponents/pages/app/dashboard/widgets/PlaidConnect.tsx:31:25 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This variable setLinkSessionId is unused.\n  \n    29 │   const [error, setError] = useState<string | null>(null);\n    30 │   const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n  > 31 │   const [linkSessionId, setLinkSessionId] = useState<string | null>(null);\n       │                         ^^^^^^^^^^^^^^^^\n    32 │   const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);\n    33 │   const { user } = useAuthUser();\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend setLinkSessionId with an underscore.\n  \n     29  29 │     const [error, setError] = useState<string | null>(null);\n     30  30 │     const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n     31     │ - ··const·[linkSessionId,·setLinkSessionId]·=·useState<string·|·null>(null);\n         31 │ + ··const·[linkSessionId,·_setLinkSessionId]·=·useState<string·|·null>(null);\n     32  32 │     const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);\n     33  33 │     const { user } = useAuthUser();\n  \n\ncomponents/pages/app/dashboard/widgets/PlaidConnect.tsx:32:10 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This variable sessionStartTime is unused.\n  \n    30 │   const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n    31 │   const [linkSessionId, setLinkSessionId] = useState<string | null>(null);\n  > 32 │   const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);\n       │          ^^^^^^^^^^^^^^^^\n    33 │   const { user } = useAuthUser();\n    34 │   const [log] = useState(() => createClientLogger());\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend sessionStartTime with an underscore.\n  \n     30  30 │     const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n     31  31 │     const [linkSessionId, setLinkSessionId] = useState<string | null>(null);\n     32     │ - ··const·[sessionStartTime,·setSessionStartTime]·=·useState<Date·|·null>(null);\n         32 │ + ··const·[_sessionStartTime,·setSessionStartTime]·=·useState<Date·|·null>(null);\n     33  33 │     const { user } = useAuthUser();\n     34  34 │     const [log] = useState(() => createClientLogger());\n  \n\ncomponents/pages/app/dashboard/widgets/PlaidConnect.tsx:32:28 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This variable setSessionStartTime is unused.\n  \n    30 │   const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n    31 │   const [linkSessionId, setLinkSessionId] = useState<string | null>(null);\n  > 32 │   const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);\n       │                            ^^^^^^^^^^^^^^^^^^^\n    33 │   const { user } = useAuthUser();\n    34 │   const [log] = useState(() => createClientLogger());\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend setSessionStartTime with an underscore.\n  \n     30  30 │     const [showConnectionsModal, setShowConnectionsModal] = useState(false);\n     31  31 │     const [linkSessionId, setLinkSessionId] = useState<string | null>(null);\n     32     │ - ··const·[sessionStartTime,·setSessionStartTime]·=·useState<Date·|·null>(null);\n         32 │ + ··const·[sessionStartTime,·_setSessionStartTime]·=·useState<Date·|·null>(null);\n     33  33 │     const { user } = useAuthUser();\n     34  34 │     const [log] = useState(() => createClientLogger());\n  \n\ncheck ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  × Some errors were emitted while applying fixes.\n  \n\n",
+        "severity": "error"
+      }
+    ],
+    "output": ""
+  }
+}

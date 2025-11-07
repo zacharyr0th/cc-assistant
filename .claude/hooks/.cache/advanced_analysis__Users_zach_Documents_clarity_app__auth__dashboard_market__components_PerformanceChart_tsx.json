@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "fileHash": "43fa7bdd680dbc31c72f01dbf2450945f5096a5dbf5984452fb3511c5cfd9537",
+  "timestamp": 1762209634595,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "parse_int_no_radix",
+        "severity": "warning",
+        "line": 115,
+        "description": "parseInt without radix can produce unexpected results",
+        "suggestion": "Always specify radix: parseInt(value, 10)",
+        "category": "type_safety"
+      },
+      {
+        "type": "parse_int_no_radix",
+        "severity": "warning",
+        "line": 116,
+        "description": "parseInt without radix can produce unexpected results",
+        "suggestion": "Always specify radix: parseInt(value, 10)",
+        "category": "type_safety"
+      },
+      {
+        "type": "parse_int_no_radix",
+        "severity": "warning",
+        "line": 117,
+        "description": "parseInt without radix can produce unexpected results",
+        "suggestion": "Always specify radix: parseInt(value, 10)",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 238,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

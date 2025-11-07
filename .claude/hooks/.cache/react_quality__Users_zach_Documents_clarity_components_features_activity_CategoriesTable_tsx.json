@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "fileHash": "b5500e6c6bd9e6b07191cda21a51d7a1fb0e9623df7b66731a8b28cc7007f1b7",
+  "timestamp": 1762214296715,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "missing_deps",
+        "severity": "warning",
+        "line": 39,
+        "description": "useEffect missing dependency array",
+        "suggestion": "Add dependency array to prevent infinite loops"
+      }
+    ]
+  }
+}

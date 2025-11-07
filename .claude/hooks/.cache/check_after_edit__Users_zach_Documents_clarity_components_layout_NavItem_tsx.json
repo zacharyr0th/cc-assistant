@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "a7ec5de2315484acaf332fab38db0fa0293fa216fe2d3b255f0170b6b7c49651",
+  "timestamp": 1761802942378,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 5463.120708,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 0.9604999999999961,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/layout/NavItem.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.62050000000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

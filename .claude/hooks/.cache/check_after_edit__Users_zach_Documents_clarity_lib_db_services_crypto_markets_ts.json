@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "434e8c32ade4f003d955816a3e188f58ab51c1eb6fe4d90d685eb0b8902b42f0",
+  "timestamp": 1762141097774,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2030.1965,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2009169999999898,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/crypto-markets.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 57.156625000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

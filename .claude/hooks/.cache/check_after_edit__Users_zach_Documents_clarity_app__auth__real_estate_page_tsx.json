@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "ef1b0441d080d269c0f6a24613cb854c478366eef617e363259ff2f84e684af4",
+  "timestamp": 1762034066965,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1889.351709,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0672500000000014,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/real-estate/page.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.013125,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

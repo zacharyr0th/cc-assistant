@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "d2fc230210229ca0430b7078ff79ed9c5e3567066ad8a39b56205fdd368e05b1",
+  "timestamp": 1761775601734,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 5502.623333,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 5.472958999999989,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/investment-analytics.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 98.236667,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

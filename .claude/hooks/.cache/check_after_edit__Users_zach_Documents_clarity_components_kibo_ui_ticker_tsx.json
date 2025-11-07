@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "5c45bfc2ca5a7eb991c47803b34d72d0d2d083a784c5145a5eaadb8260d609f2",
+  "timestamp": 1762099010307,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2528.500791,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 0.9535829999999947,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/kibo-ui/ticker.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 85.503292,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

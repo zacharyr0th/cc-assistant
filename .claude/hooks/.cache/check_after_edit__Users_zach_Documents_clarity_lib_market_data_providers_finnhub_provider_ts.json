@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "3cd2a46a6ea1db04b41f7d6c490740016a636dd2a0bdb2c05892be0f07725aa2",
+  "timestamp": 1762033577288,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1857.6812499999999,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1739999999999995,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/providers/finnhub-provider.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.220417,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

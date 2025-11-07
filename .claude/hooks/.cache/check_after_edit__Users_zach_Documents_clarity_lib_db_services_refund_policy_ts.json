@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "02b119e4437703af8bb646b8571704b0a9ddf619942825b6c7d28200454138bf",
+  "timestamp": 1761775635150,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3504.8745,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.395667000000003,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/refund-policy.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 52.67433299999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

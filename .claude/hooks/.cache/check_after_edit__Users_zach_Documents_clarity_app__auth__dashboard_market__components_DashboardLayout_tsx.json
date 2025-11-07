@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "826a83650fb532ff741bc902aa86d2e3d660d981515e09713a51659936ffb31f",
+  "timestamp": 1762032969797,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2297.201709,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1133329999999972,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/dashboard/market/_components/DashboardLayout.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 91.8335,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

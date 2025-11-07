@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "6518be3de8e33065a60b797d90249289a16e84089ce42218c5c1319f31d69e93",
+  "timestamp": 1762205194146,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3087.149375,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 4.3672909999999945,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/scripts/backfill-merchants.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 134.61062499999997,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

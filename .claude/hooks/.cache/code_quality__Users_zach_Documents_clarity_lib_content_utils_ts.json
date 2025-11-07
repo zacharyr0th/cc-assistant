@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "fileHash": "460a256af2677b9956d963d512471ef566a159a95ad034ad55169147426eff7f",
+  "timestamp": 1761766793972,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "utility_reimplementation",
+        "severity": "warning",
+        "line": 15,
+        "description": "Date formatting/parsing may already exist in lib/utils",
+        "suggestion": "Check @/lib/utils/date or @/lib/utils/formatters before implementing. Import with: import { ... } from \"@/lib/utils/date or @/lib/utils/formatters\""
+      }
+    ]
+  }
+}

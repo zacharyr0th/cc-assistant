@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "fcd04d8ded40793ccf855a8ec2d79a44d4c383b766c555926d52a3d828dc0e84",
+  "timestamp": 1762205250656,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3269.1247080000003,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 5.0531660000000045,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/repositories/merchants.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 137.02975,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

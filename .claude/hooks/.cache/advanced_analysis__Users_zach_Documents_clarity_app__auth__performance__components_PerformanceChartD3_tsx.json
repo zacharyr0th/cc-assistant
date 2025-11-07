@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "fileHash": "5bb4adabc410e452ecfae774539d911a200ddc67b6ef740a7531a936bd9af7ee",
+  "timestamp": 1762096914962,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "missing_unsubscribe",
+        "severity": "warning",
+        "line": 183,
+        "description": "Subscription without unsubscribe in cleanup",
+        "suggestion": "Store subscription and unsubscribe in cleanup function",
+        "category": "memory"
+      },
+      {
+        "type": "missing_unsubscribe",
+        "severity": "warning",
+        "line": 184,
+        "description": "Subscription without unsubscribe in cleanup",
+        "suggestion": "Store subscription and unsubscribe in cleanup function",
+        "category": "memory"
+      },
+      {
+        "type": "missing_unsubscribe",
+        "severity": "warning",
+        "line": 188,
+        "description": "Subscription without unsubscribe in cleanup",
+        "suggestion": "Store subscription and unsubscribe in cleanup function",
+        "category": "memory"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 3,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      },
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 154,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

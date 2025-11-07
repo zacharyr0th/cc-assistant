@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "e86ca1d45efdb93ca19da72f4868d94eb1e3cf74a0321c3fdbc8ca0129604188",
+  "timestamp": 1762143581359,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1815.8548329999999,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4092500000000001,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/hyperion/index.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 87.692083,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

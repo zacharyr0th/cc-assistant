@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "06a4626562792313f7b301a27e0fa9b94c9873974f6329e2f8e4849fd7d80bac",
+  "timestamp": 1762084569026,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1887.576916,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4976659999999953,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/hooks/performance/use-performance-data.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.503959,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "a51f5eaefcd71deb4bfa14f6d99fc43f7dc1fdcce7c6087c3f1607205613e37f",
+  "timestamp": 1761841683994,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2064.046042,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.289749999999998,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/tax-calculations/bracket-estimation.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.59754100000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

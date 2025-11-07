@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "1f602c726a8cf10eb4caef526adf4c4ccc17c0a4162badded8584de9cb9403d3",
+  "timestamp": 1762145922381,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 4110.80425,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.5165000000000006,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/transactions/categorization/adapters.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 92.199584,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "f07e7ee8e3e588a7f7bca9a6ccfede4130211ec2b00b1c092a38a165e249bac7",
+  "timestamp": 1761843056296,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1743.228125,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2020000000000053,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/blockchains/services/blockchain-transaction-helpers.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 51.500417000000006,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "34a26b3dd688f275225b5355dd44e577d8edd8a795b0cc719aac2b3236d6109a",
+  "timestamp": 1761775486225,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 8787.420875,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.7829160000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/usage-limits.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 59.68320799999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

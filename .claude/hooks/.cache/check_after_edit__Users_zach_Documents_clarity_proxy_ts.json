@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "6bc1e3d74fad44a85a397b75eb4d07e0cdff63069e7412132d69e8cdcb99450a",
+  "timestamp": 1761842383693,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 1946.571833,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0549579999999992,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/proxy.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 45.752334000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

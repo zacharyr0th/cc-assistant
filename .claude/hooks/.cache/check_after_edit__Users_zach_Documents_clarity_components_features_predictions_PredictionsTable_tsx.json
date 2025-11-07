@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "63862cbd92f3aca57ce23513d663a5726854e9b633c5ae5060a93627b70a59b8",
+  "timestamp": 1762189336732,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3159.460958,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.5367080000000044,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/predictions/PredictionsTable.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 156.543875,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

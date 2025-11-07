@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "ff4f48be35d4d7e5d49436609cf6b91c599924e145e6d50ea83e24ec4ae3f481",
+  "timestamp": 1761802494386,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 11895.213249999999,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 5.182334000000026,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(public)/integrations/[slug]/[feature]/page.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 236.18783399999995,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "1c2220e62e4fd0d1e2fa94df8481b0b2d230005003be5f264a8308d249b889e4",
+  "timestamp": 1761770335193,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3216.559166,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 4.532291000000015,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/plaid/index.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 180.40812499999998,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

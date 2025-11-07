@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "9db863495b22d2ec144d7967a6b1be56febfcb64289ed7735d1ace2a9309d854",
+  "timestamp": 1762199289622,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2390.8493329999997,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.7232090000000113,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/db/services/all-assets.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": false,
+        "duration": 108.74825000000001,
+        "output": "lib/db/services/all-assets.ts:397:11 lint/suspicious/useIterableCallbackReturn ━━━━━━━━━━━━━━━━━━━━━\n\n  × This callback passed to forEach() iterable method should not return a value.\n  \n    395 │     if (asset.metadata.accountId) {\n    396 │       const ids = asset.metadata.accountId.split(\",\");\n  > 397 │       ids.forEach((id) => accountIds.add(id));\n        │           ^^^^^^^\n    398 │     }\n    399 │   }\n  \n  i Either remove this return or remove the returned value.\n  \n    395 │     if (asset.metadata.accountId) {\n    396 │       const ids = asset.metadata.accountId.split(\",\");\n  > 397 │       ids.forEach((id) => accountIds.add(id));\n        │                           ^^^^^^^^^^^^^^^^^^\n    398 │     }\n    399 │   }\n  \n\ncheck ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  × Some errors were emitted while applying fixes.\n  \n\n",
+        "severity": "error"
+      }
+    ],
+    "output": ""
+  }
+}

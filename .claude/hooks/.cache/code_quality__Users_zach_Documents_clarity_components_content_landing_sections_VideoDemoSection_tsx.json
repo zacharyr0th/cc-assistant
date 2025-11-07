@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "fileHash": "2336f938e5a1eb95bdcbbb25eb0fd4d4f1ea26d4175af579863c253aa97d1c7d",
+  "timestamp": 1761786431875,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 36,
+        "description": "Deep nesting detected (level 8)",
+        "value": 8,
+        "threshold": 3
+      },
+      {
+        "type": "long_function",
+        "severity": "warning",
+        "line": 8,
+        "description": "Function 'VideoDemoSection' is too long (62 lines, max: 50)",
+        "value": 62,
+        "threshold": 50
+      }
+    ]
+  }
+}

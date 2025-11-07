@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "27bf7ea89b8fdc5cd676b0a972704496bf0c3210759212ecbc69ef669fa8fe5b",
+  "timestamp": 1761806085556,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1908.6962500000002,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0983340000000013,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/hooks/financial/useCryptoSync.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 41.659541,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

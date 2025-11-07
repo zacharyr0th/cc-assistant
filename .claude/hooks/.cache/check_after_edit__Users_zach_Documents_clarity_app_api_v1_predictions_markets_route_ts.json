@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "54a7a15788c9258f9fcf10bb5ef2224b3ab11ffdd67c234a035e9e923cf9b60c",
+  "timestamp": 1762097968215,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2557.76375,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0551250000000039,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/predictions/markets/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 95.9425,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

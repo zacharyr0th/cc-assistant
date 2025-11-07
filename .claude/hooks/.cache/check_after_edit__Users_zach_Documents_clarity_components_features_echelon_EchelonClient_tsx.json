@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "b4f15f62d0513afea742d9963f63d3742cd8ef85d3b3404c4171ae9e03e9f7dd",
+  "timestamp": 1762143496636,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2548.0499579999996,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0985000000000014,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/echelon/EchelonClient.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 42.70291700000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

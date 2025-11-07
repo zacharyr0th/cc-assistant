@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "78c64322fd1e50244424eca78947dd107b1d7f8681e7a9886b0c9334844af231",
+  "timestamp": 1761805064205,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3371.568334,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.0532499999999914,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/multi-select.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 85.175625,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

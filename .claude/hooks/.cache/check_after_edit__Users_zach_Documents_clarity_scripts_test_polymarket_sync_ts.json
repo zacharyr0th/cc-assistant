@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "45dcf1ca4e45905d62a5dd1f6a86a685fc2a6685b475a8a4db8964283982c6d1",
+  "timestamp": 1762082781071,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1823.042667,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 0.9257080000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/scripts/test-polymarket-sync.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.75079100000001,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

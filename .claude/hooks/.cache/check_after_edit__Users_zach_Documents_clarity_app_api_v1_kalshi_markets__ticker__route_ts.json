@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "59b3d6181d36749d29afc83f2cc5517bc92302fe417d0bf811e9f40781289a6b",
+  "timestamp": 1762132269801,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2273.4227920000003,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0626250000000041,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/kalshi/markets/[ticker]/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 43.217791000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

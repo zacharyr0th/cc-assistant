@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "fa7cf9e1e50bc3ca0f8ebe6e0437bf0e0c52427edbffde32333cd2a434741c3b",
+  "timestamp": 1762189425170,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2843.7760000000003,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2963749999999834,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/predictions/DuplicateMarketGroup.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 105.23008299999998,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

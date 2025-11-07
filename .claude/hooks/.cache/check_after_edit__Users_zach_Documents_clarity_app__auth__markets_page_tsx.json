@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "d0782f4729c6bedc581f90a9a7d55852d0003fed4d10bc9dc355648687b9d1c0",
+  "timestamp": 1762097061030,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2315.031,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0961669999999941,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/markets/page.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 43.794999999999995,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

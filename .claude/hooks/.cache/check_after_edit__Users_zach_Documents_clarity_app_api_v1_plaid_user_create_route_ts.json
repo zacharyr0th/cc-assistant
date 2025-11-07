@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "340b482ee69ccd4e14d546fb3d1d4b55580fed83e86abf6f020de5eb5b91dcf4",
+  "timestamp": 1761801021476,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2322.492834,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0782500000000113,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/plaid/user/create/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.10825,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

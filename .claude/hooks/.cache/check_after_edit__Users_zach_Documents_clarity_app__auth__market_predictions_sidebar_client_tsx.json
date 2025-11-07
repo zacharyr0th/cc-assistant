@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "f345fffd8fb37ed5fbf77f5af563fda7cfe6ad48c7db0d43943e2276d68b3757",
+  "timestamp": 1762035530964,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1772.394,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3645420000000001,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/market/predictions/sidebar-client.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.83212500000002,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

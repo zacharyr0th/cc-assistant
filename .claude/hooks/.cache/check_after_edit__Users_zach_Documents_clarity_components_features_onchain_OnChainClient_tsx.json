@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "fb8b060fe6e47565f19ee489e441b90ff5ee092baa6fa904a41cafbb8def7c07",
+  "timestamp": 1762142869878,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2044.507709,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0616250000000065,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/onchain/OnChainClient.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 51.078875,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

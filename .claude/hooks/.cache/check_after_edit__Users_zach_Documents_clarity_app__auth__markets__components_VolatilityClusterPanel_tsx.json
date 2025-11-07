@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "d6cefa028910642b4c53e10e2c92474bc389b1e454f8943df0e9c9a632c7eb50",
+  "timestamp": 1762087304743,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1991.034667,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2199999999999989,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/markets/_components/VolatilityClusterPanel.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 49.517458000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

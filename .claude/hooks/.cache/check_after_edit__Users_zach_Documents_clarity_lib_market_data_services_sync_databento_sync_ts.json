@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "867ac7a954abb60015eb2bba36d324ca2e1ff907dcc2aad89442a8a4b3604b97",
+  "timestamp": 1762133175410,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2034.4070419999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0476250000000036,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/services/sync/databento-sync.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": false,
+        "duration": 98.489875,
+        "output": "lib/market-data/services/sync/databento-sync.ts:21:7 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This variable DATABENTO_BASE_URL is unused.\n  \n    19 │ import { trackAPICall } from \"@/lib/utils/cost-tracking\";\n    20 │ \n  > 21 │ const DATABENTO_BASE_URL = \"https://hist.databento.com/v0\";\n       │       ^^^^^^^^^^^^^^^^^^\n    22 │ const DATABENTO_API_KEY = process.env.DATABENTO_API_KEY || \"\";\n    23 │ \n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend DATABENTO_BASE_URL with an underscore.\n  \n     19  19 │   import { trackAPICall } from \"@/lib/utils/cost-tracking\";\n     20  20 │   \n     21     │ - const·DATABENTO_BASE_URL·=·\"https://hist.databento.com/v0\";\n         21 │ + const·_DATABENTO_BASE_URL·=·\"https://hist.databento.com/v0\";\n     22  22 │   const DATABENTO_API_KEY = process.env.DATABENTO_API_KEY || \"\";\n     23  23 │   \n  \n\nlib/market-data/services/sync/databento-sync.ts:181:16 lint/correctness/noUnusedVariables  FIXABLE  ━━━━━━━━━━\n\n  × This function fetchSymbolMetadata is unused.\n  \n    179 │  * Real implementation would use Databento's symbology API\n    180 │  */\n  > 181 │ async function fetchSymbolMetadata(symbol: string): Promise<DatabentoSymbol | null> {\n        │                ^^^^^^^^^^^^^^^^^^^\n    182 │   return await databentoBreaker.execute(async () => {\n    183 │     await trackAPICall(\"databento\", \"symbol-metadata\");\n  \n  i Unused variables are often the result of an incomplete refactoring, typos, or other sources of bugs.\n  \n  i Unsafe fix: If this is intentional, prepend fetchSymbolMetadata with an underscore.\n  \n    179 179 │    * Real implementation would use Databento's symbology API\n    180 180 │    */\n    181     │ - async·function·fetchSymbolMetadata(symbol:·string):·Promise<DatabentoSymbol·|·null>·{\n        181 │ + async·function·_fetchSymbolMetadata(symbol:·string):·Promise<DatabentoSymbol·|·null>·{\n    182 182 │     return await databentoBreaker.execute(async () => {\n    183 183 │       await trackAPICall(\"databento\", \"symbol-metadata\");\n  \n\ncheck ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n  × Some errors were emitted while applying fixes.\n  \n\n",
+        "severity": "error"
+      }
+    ],
+    "output": ""
+  }
+}

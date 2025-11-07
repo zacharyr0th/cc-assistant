@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "ba3ab414fc4ced05b18bd3f3be2d7c4be01a5717c6cdb97e1c7d8d97d4681615",
+  "timestamp": 1761766873391,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2386.343,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.374332999999993,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/layout/HelpButton.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.10249999999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

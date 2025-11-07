@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "b272cacc58f277ae501adb6ad29947f679ffec98b2b4baa47afd0734a3c8463e",
+  "timestamp": 1762096467217,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1916.551958,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.938167,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/email/templates/link-reminder.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.716916,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

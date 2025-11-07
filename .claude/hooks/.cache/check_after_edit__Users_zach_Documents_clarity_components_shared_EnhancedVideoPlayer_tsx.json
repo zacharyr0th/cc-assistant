@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "1d9b20dc7341b230f5021430fff344f22a6c7aa6baad17dde13909b8d6560ffd",
+  "timestamp": 1761762088176,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2043.427875,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.108833000000004,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/shared/EnhancedVideoPlayer.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 48.042167000000035,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

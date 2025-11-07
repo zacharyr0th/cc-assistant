@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "fileHash": "9d3a80417b590cfa81e8d870500856bd2f38770bd850abc472a296118b648728",
+  "timestamp": 1761806764444,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 39,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 40,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 41,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "long_parameter_list",
+        "severity": "warning",
+        "line": 21,
+        "description": "Function 'ListItem' has 5 parameters (max: 4)",
+        "value": 5,
+        "threshold": 4
+      }
+    ]
+  }
+}

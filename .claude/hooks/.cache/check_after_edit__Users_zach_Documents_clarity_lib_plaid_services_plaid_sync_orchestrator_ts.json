@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "8b4a83e2539272c06c5e4bb151321d18a39a2949a61ffc2059d493bdac1cb3fb",
+  "timestamp": 1761776086055,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 4848.208583,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3234580000000022,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/plaid/services/plaid-sync-orchestrator.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 66.03100000000002,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

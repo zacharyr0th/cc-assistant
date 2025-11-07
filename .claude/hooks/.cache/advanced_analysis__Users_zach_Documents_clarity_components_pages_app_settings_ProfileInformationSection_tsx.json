@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "fileHash": "e139d5a002824e35da38aaf7d75c800a9325a798dd0d8ce99bccbac834a8702f",
+  "timestamp": 1761806454749,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "unsafe_array_access",
+        "severity": "info",
+        "line": 73,
+        "description": "Array access without length check",
+        "suggestion": "Check array length or use optional chaining: array[0]",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

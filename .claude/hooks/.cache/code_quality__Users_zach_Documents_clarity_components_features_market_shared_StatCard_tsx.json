@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "fileHash": "c9f3a7b4a9e6503976719560204aaed513d5921397f6c4ab2e5a2ec9f74d34d9",
+  "timestamp": 1762088156989,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 17,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 22,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 31,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "long_parameter_list",
+        "severity": "warning",
+        "line": 13,
+        "description": "Function 'StatCard' has 5 parameters (max: 4)",
+        "value": 5,
+        "threshold": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "378e7fd3c871198dd24aad4031d316bd3369d27af32d23e6c2d332abae381933",
+  "timestamp": 1761839646624,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 2221.374292,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1074170000000123,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/layout/TokenPricesSidebar.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 50.885833000000005,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

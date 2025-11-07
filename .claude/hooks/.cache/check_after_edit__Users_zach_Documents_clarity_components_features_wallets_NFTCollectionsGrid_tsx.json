@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "5bbbeb42ddbb2091abe6bf9cb88c86a26cae469565c89cfdfa40d053a2bb552c",
+  "timestamp": 1761808600227,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2235.743458,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0048339999999953,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/features/wallets/NFTCollectionsGrid.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 41.231666,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

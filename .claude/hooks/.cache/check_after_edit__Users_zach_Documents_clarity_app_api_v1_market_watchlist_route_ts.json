@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "d89b6176677d6d0a3d5136e6c6b7591cb4acfc37b873cff68fa92568a8d90f3b",
+  "timestamp": 1762038586463,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2249.920459,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1271249999999995,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/market/watchlist/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 44.725375,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

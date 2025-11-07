@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "fileHash": "202f6b734ee850f028ed2ec8bf35bc29cc2deccadb1c0bc68bff5ac6c37a81ec",
+  "timestamp": 1762087335159,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "incomplete_type_guard",
+        "severity": "info",
+        "line": 285,
+        "description": "typeof check without strict equality",
+        "suggestion": "Use === or !== for type guards: if (typeof x === 'string')",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

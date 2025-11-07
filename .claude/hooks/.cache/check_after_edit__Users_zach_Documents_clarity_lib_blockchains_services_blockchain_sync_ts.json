@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "592df88fe0d417e5a9a9b4f6fd5364ea2ba42892b4563190ea076ac4c714ac31",
+  "timestamp": 1761843092789,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2567.1697090000002,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.9662500000000023,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/blockchains/services/blockchain-sync.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 52.393750000000004,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

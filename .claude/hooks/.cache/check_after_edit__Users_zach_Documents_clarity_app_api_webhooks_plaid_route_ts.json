@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "547db026672dc164e6f5d94bb51ccafb39f7430b55b909cc34595e0eb4745aab",
+  "timestamp": 1761765620254,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2513.623459,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.6469589999999954,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/webhooks/plaid/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 69.17099999999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

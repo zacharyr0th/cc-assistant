@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "bcbe23e39efc5067e4513e8dbf451045b9ff6245771fcbd0b5ece229613778dd",
+  "timestamp": 1761783538287,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3716.237792,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4214169999999982,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/api/next/response-headers.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 50.773875000000004,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

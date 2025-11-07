@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "ce1c7fdb9fc7011cefeb9ed89d3f3d38437f4d0c0cb56bea45e928d06f5c3d5f",
+  "timestamp": 1762145678579,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 17669.343582999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1044160000000005,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/on-chain/protocols/merkle/page.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 95.72104099999999,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

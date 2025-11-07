@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "dcae6265e462857a8ca9e01d493feaa75fc7b27172b8b00fdb9628237235b6b3",
+  "timestamp": 1762097015525,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1917.918458,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.0967079999999925,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/global-not-found.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.247917,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

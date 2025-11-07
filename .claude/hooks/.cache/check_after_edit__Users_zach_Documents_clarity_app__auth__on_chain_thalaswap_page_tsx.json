@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "c347cbb3b1e2f53dd2ce9d2544c3d3d9016688c0f4114663f743fcc1bf3581f3",
+  "timestamp": 1762142794994,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 28570.908167,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1830830000000105,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/on-chain/thalaswap/page.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 105.03345900000001,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

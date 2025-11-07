@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "d538d97e824ec4e7185f88539b7e277246c9c604c612d17b9ee71d00a12ca816",
+  "timestamp": 1761782388081,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2047.172833,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.0093750000000057,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/HighlightMatch.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 54.403959,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

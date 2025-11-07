@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "668d3458533c04162ecd8d8c6c4c91e6560ac3c1a3c24138470b0538cb65baa0",
+  "timestamp": 1762142230862,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1784.08725,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.3064999999999998,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/providers/thalaswap-provider.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 92.290542,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

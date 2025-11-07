@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "5a950a3ca32b0658eb6e785af6ba56d72f1945dfaf6cf9285fb816d291b47ec5",
+  "timestamp": 1761782911433,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2106.86525,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.3064159999999987,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/cache/request-memoization.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 91.249708,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

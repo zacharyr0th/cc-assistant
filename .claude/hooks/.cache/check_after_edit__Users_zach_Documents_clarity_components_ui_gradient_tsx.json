@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "5d953e335e8cb14b8638f6d1d799aac3d4828b095a640626da01d96675c63638",
+  "timestamp": 1761762463316,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2051.274791,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.253458999999964,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/gradient.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 110.484667,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

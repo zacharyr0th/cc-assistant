@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "fileHash": "0b944fe7bc2ea48f49c57aed00ba641b584986959e6bee94b332e416f134949a",
+  "timestamp": 1761802784958,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 88,
+        "description": "Deep nesting detected (level 4)",
+        "value": 4,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 91,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 92,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 97,
+        "description": "Deep nesting detected (level 6)",
+        "value": 6,
+        "threshold": 3
+      },
+      {
+        "type": "long_function",
+        "severity": "warning",
+        "line": 11,
+        "description": "Function 'IntegrationsCardsSection' is too long (61 lines, max: 50)",
+        "value": 61,
+        "threshold": 50
+      }
+    ]
+  }
+}

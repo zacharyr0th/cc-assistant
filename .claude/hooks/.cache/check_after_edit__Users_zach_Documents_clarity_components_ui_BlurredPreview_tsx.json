@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "7813960f3754bb6d3635e172e544ee169a2849193307ff2b502e18f1ec69f344",
+  "timestamp": 1761806642679,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1795.5971249999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1731659999999948,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/BlurredPreview.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 86.93199999999999,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "6baaaa724d523814755c8308ead186dba4310d7af5d2ad7a9f113742fd98318d",
+  "timestamp": 1762209120545,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1929.302792,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.8647090000000048,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/client-layout-wrapper.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 48.45149999999998,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

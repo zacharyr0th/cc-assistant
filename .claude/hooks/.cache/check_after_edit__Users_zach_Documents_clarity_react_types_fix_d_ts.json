@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "c0bbf247aacbe35b6d67863131f1020f25080fbf5931e3077d28a34581f12810",
+  "timestamp": 1761799151624,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1796.772041,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.9891659999999973,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/react-types-fix.d.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.056167,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

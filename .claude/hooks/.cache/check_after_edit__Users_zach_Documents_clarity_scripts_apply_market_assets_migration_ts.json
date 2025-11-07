@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "23ffea3217c1f5ba509d6ab54b1607e41e2025800d678fb3977bd60d9cf6a6ce",
+  "timestamp": 1762082602837,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1778.939417,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1277920000000066,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/scripts/apply-market-assets-migration.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 42.306208999999996,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

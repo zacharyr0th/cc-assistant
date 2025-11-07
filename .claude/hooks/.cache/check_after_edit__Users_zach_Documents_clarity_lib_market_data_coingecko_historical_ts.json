@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "2060f43d1c7ca0409405abd9d1a48572a2e3890c94573187435c8414d892e0e6",
+  "timestamp": 1762036579073,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 1840.803584,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.6154160000000033,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/coingecko-historical.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 48.639917000000004,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

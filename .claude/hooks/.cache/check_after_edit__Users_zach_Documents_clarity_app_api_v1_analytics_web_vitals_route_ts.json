@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "2e08b8c535a0a4338a61b0beee791bb88a8743c9e1fd63d907a5e5fa2211d6c9",
+  "timestamp": 1761787405994,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2727.8015840000003,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2578329999999909,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/api/v1/analytics/web-vitals/route.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.483125,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "06d35afe1c1919c3ac817ffc75d9be7e7130c195e63b50ce85c2f19775da45f6",
+  "timestamp": 1761807392623,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 2862.412417,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.141999999999996,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/merchants/[merchant]/loading.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 93.73541699999998,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

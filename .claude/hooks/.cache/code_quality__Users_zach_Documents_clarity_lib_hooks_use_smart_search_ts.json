@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "10cccc3e04532dc7ab46d45a84e4aa367e4270dcd9e713ac2a0141b58d453607",
+  "timestamp": 1761806991375,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 162,
+        "description": "Deep nesting detected (level 5)",
+        "value": 5,
+        "threshold": 3
+      },
+      {
+        "type": "deep_nesting",
+        "severity": "warning",
+        "line": 165,
+        "description": "Deep nesting detected (level 6)",
+        "value": 6,
+        "threshold": 3
+      },
+      {
+        "type": "any_type",
+        "severity": "info",
+        "line": 23,
+        "description": "Use of 'any' type reduces type safety"
+      }
+    ]
+  }
+}

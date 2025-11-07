@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "943a4228705b94bfe68f7733735865f724398b56daf9780bace839d865d10903",
+  "timestamp": 1761787011679,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3454.3617919999997,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1544170000000022,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/seo/StructuredData.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.453666999999996,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

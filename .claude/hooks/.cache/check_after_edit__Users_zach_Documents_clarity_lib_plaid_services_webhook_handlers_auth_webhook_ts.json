@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "5164249c1bac11edacecaac07953b1f73a32019225617ef71e012740684f2dd6",
+  "timestamp": 1762099504090,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2022.9785829999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.4216249999999988,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/plaid/services/webhook-handlers/auth-webhook.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.363958999999994,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

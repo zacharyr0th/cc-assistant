@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "a1bda2d6f148d9ae60d77f3a3bf29dfca5f447f025dc1d2a23e6035590ad7c93",
+  "timestamp": 1762084399929,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1909.770792,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2863749999999925,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/market/predictions/markets-wrapper.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 91.18508300000002,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

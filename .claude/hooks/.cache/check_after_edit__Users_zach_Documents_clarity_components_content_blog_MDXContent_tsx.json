@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "4b7a46fe5fbd35bd7758bc1216a216b960a3cd276dec4511af20819d29c9b88b",
+  "timestamp": 1761805013012,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2439.185583,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.5201670000000007,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/content/blog/MDXContent.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 45.594584,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

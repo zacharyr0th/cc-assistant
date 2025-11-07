@@ -1,0 +1,24 @@
+{
+  "version": "1",
+  "fileHash": "46290d254f270499603055154d5258250a892d9a7b220c81fb35d305770c3982",
+  "timestamp": 1761797625036,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.051000000000002,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/package.json\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 41.64362499999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

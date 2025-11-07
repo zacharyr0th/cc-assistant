@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "33b801140e5751309b418bf6776ce5c95734050bc0c29585b04cf07d8d1a18ad",
+  "timestamp": 1761801076611,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2582.4335419999998,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.1999999999999957,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/HoverPrefetchLink.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 47.478958999999996,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "a64e706b1de8da6521811706d5f3286d71aab1a66202821861df813db18e6a3b",
+  "timestamp": 1762143602147,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1947.319084,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2267920000000032,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/market-data/providers/hyperion-provider.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.268958,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

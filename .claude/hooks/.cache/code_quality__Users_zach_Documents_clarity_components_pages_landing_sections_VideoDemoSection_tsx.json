@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "fileHash": "566da996f59ca12e9f56b8e8fe1d34c6d581a0751c90891cd113aadea259d2c7",
+  "timestamp": 1761762721214,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "long_function",
+        "severity": "warning",
+        "line": 6,
+        "description": "Function 'VideoDemoSection' is too long (60 lines, max: 50)",
+        "value": 60,
+        "threshold": 50
+      }
+    ]
+  }
+}

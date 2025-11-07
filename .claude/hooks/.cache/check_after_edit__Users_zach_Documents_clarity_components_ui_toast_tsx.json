@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "fileHash": "b0446723c3de5179d2151f17d58d8a84bffb8ebdb398618fcdba1ec59cee558a",
+  "timestamp": 1761805637127,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 5196.772542,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.2066250000000025,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/components/ui/toast.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 89.901959,
+        "output": "Auto-fixed formatting",
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

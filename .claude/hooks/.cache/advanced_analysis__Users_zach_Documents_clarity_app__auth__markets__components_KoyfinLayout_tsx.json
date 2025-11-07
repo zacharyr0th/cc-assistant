@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "fileHash": "0547583b0e2456a21fac52c75c7de32b515bd398e6eb6aa55b644b98aea17b53",
+  "timestamp": 1762086974308,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "type": "type_assertion",
+        "severity": "warning",
+        "line": 130,
+        "description": "Type assertion (as) bypasses type checking",
+        "suggestion": "Use type guards or validate at runtime instead",
+        "category": "type_safety"
+      }
+    ]
+  }
+}

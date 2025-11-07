@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "d2064773dc087a16712105c043e90309c068409f131fd0512e40852142d22141",
+  "timestamp": 1761779056751,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 2644.605875,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 2.564417000000006,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/plaid/oauth/page.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 46.28275,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "6b9235de0f480ccff9e3268555758031742cdd949f9302b1b1e47f74317ecbfe",
+  "timestamp": 1762033358168,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 1838.989,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.545250000000003,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/app/(auth)/dashboard/market/_components/GlobalYieldsTable.tsx\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 48.215125,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

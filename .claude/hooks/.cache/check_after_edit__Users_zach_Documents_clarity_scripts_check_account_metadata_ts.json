@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "eca80c25090cf363791c59bd699e44de01c0ced6c0c76ecd1010b80a39270712",
+  "timestamp": 1761805919748,
+  "result": {
+    "passed": false,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": false,
+        "duration": 3702.680666,
+        "output": "$ tsc --noEmit\n",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.8372499999999974,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/scripts/check-account-metadata.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 71.95370799999999,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}

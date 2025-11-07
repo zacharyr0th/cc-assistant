@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "fileHash": "3188af595ae38244f91ea6b122eecf9aabf8d7d826c636f7b67fa78fcfed9c9f",
+  "timestamp": 1761846235644,
+  "result": {
+    "passed": true,
+    "issues": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "duration": 1775.219333,
+        "output": "",
+        "severity": "error"
+      },
+      {
+        "name": "Lint",
+        "passed": false,
+        "duration": 1.0365830000000074,
+        "output": "bun: command not found: bunx biome lint /Users/zach/Documents/clarity/lib/blockchains/categorization/protocol-detector.ts\n",
+        "severity": "warning"
+      },
+      {
+        "name": "Format",
+        "passed": true,
+        "duration": 43.016082999999995,
+        "severity": "info"
+      }
+    ],
+    "output": ""
+  }
+}
