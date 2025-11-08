@@ -60,6 +60,11 @@ ls examples/skills
 ls examples/hooks
 ```
 
+## Advanced Topics
+
+- [TOON Format](toon/) - Token-efficient data format (40-61% savings)
+- [Release Notes](releases/) - Version history and changelogs
+
 ## Development
 
 - [Contributing](development/CONTRIBUTING.md) - Contribution guidelines
