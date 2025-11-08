@@ -46,13 +46,13 @@ Savings:  40%
 
 ## When to Use TOON
 
-✅ **Use TOON when**:
+**Use TOON when**:
 - Sharing tabular data with Claude (transactions, users, metrics)
 - Working with large datasets that consume many tokens
 - Optimizing context window usage
 - Building data-heavy Claude Code skills or agents
 
-❌ **Don't use TOON when**:
+**Do not use TOON when**:
 - Data is deeply nested (JSON is better)
 - Single records (overhead not worth it)
 - Data needs to be consumed by non-LLM systems (use JSON)

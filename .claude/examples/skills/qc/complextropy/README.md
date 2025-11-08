@@ -8,7 +8,7 @@ Based on Scott Aaronson's "First Law of Complexodynamics":
 
 > Complexity doesn't increase monotonically - it increases to a maximum and then decreases.
 
-Just like the coffee cup example:
+Similar to the coffee cup example:
 - **Initial state** (unmixed): Low entropy, low complexity
 - **Middle state** (swirling): High complexity, interesting patterns
 - **Final state** (fully mixed): High entropy, but simple again

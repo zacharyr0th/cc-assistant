@@ -28,7 +28,7 @@ nextjs-16-audit/
 
 ### Trigger the Skill
 
-Simply say:
+To activate, say:
 - "Audit this file with my nextjs-16-audit skill"
 - "Check [file-path] for Next.js 16 compliance"
 - "Review this component for best practices"

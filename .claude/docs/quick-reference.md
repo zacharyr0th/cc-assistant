@@ -2,12 +2,14 @@
 
 Fast reference for Claude Starter Kit components.
 
-## 📝 Slash Commands
+## Slash Commands
 
 | Command | Usage | Description |
 |---------|-------|-------------|
 | `/build-safe` | `/build-safe` | Full validation: typecheck → lint → build |
 | `/health-check` | `/health-check` | Verify project configuration and dependencies |
+| `/self-test` | `/self-test` | Comprehensive validation of Claude Code setup |
+| `/enable-hook` | `/enable-hook <preset>` | Enable quality automation hooks (quality-focused, security-focused, all) |
 | `/review-pr` | `/review-pr [number\|branch]` | Comprehensive PR review (security, types, perf, a11y) |
 | `/db-migrate` | `/db-migrate` | Run database migrations |
 | `/sync-types` | `/sync-types` | Sync TypeScript types from Supabase |
@@ -15,7 +17,7 @@ Fast reference for Claude Starter Kit components.
 | `/use-effect-less` | `/use-effect-less` | Refactor unnecessary useEffect hooks |
 | `/new-agent` | `/new-agent <name>` | Create new specialized agent interactively |
 
-## 🤖 Agents
+## Agents
 
 | Agent | Auto-invokes when... | Use for... |
 |-------|---------------------|-----------|
@@ -27,7 +29,7 @@ Fast reference for Claude Starter Kit components.
 | **use-effect-less** | "refactor useEffect" | React 19 optimizations |
 | **plaid-expert** | "plaid", "banking data" | Plaid integration, transactions |
 
-## ⚡ Skills by Category
+## Skills by Category
 
 ### Next.js (8 skills)
 - `next-app-router` - App Router patterns
@@ -72,7 +74,7 @@ Fast reference for Claude Starter Kit components.
 ### Blockchain (5 skills)
 - Aptos dApp development, Move language, indexing
 
-## 🪝 Hooks
+## Hooks
 
 | Hook | Checks | Severity | Blocks on... |
 |------|--------|----------|-------------|
@@ -86,7 +88,23 @@ Fast reference for Claude Starter Kit components.
 | **bundle_size_check** | File size | Warning | Size thresholds |
 | **advanced_analysis** | Leaks, race conditions | Warning | Memory leaks, caching issues |
 
-## 🎯 Common Workflows
+## Common Workflows
+
+### Initial Setup
+```bash
+# Auto-detect and configure
+./setup.sh --interactive
+
+# Or use a preset
+./setup.sh --preset nextjs-full
+./setup.sh --preset fullstack-saas
+
+# Enable hooks after setup
+/enable-hook quality-focused
+
+# Verify everything works
+/self-test
+```
 
 ### Starting a New Feature
 ```bash
@@ -152,7 +170,7 @@ git checkout -b feature/my-feature
 /build-safe
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Hook Configuration
 Edit `.claude/hooks/config.ts`:
@@ -198,7 +216,7 @@ Edit `.claude/settings.json`:
 }
 ```
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Agent not auto-invoking
 1. Check description has trigger keywords
@@ -224,7 +242,7 @@ Edit `.claude/settings.json`:
 3. Restart Claude Code
 4. Use `/help` to see available commands
 
-## 📚 Documentation Links
+## Documentation Links
 
 - [Main README](README.md) - Installation and overview
 - [Plugin Development](PLUGIN_DEVELOPMENT.md) - Extending the plugin
@@ -234,7 +252,7 @@ Edit `.claude/settings.json`:
 - [Hooks Guide](.claude/hooks/README.md) - Hook configuration
 - [Claude Code Docs](https://code.claude.com/docs) - Official documentation
 
-## 💡 Tips
+## Tips
 
 ### Auto-Invocation
 Trigger agents/skills by using keywords from their descriptions:
@@ -268,4 +286,4 @@ Adjust in `.claude/hooks/config.ts`.
 
 ---
 
-**Pro tip**: Use `/health-check` and `/build-safe` before every commit!
+**Recommended**: Use /health-check and /build-safe before every commit.

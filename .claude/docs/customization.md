@@ -8,19 +8,56 @@ The starter kit follows a minimal core + optional examples approach:
 
 - **core/** - Essential components enabled by default
 - **examples/** - Optional features you enable as needed
+- **presets/** - Predefined configurations for common stacks
+- **setup.sh** - Automated configuration tool
+
+## Quick Setup
+
+### Using Automated Setup (Recommended)
+
+The fastest way to get started:
+
+```bash
+# Interactive mode with guided questions
+./setup.sh --interactive
+
+# Use a preset configuration
+./setup.sh --preset nextjs-full
+./setup.sh --preset fullstack-saas
+
+# Select specific technologies
+./setup.sh --stack next,stripe,supabase
+
+# Auto-detect from your package.json
+./setup.sh
+```
+
+See [Preset System](#preset-system) below for details on available presets.
 
 ## Adding Components
 
-### From Examples
+### Using Setup Script
 
-The simplest way is copying from examples:
+**For skills:**
+```bash
+./setup.sh --stack next,stripe,d3
+```
+
+**For hooks:**
+```bash
+/enable-hook quality-focused
+/enable-hook security-focused
+```
+
+### Manual Method
+
+Copy from examples directory:
 
 ```bash
 # Enable an agent
 cp examples/agents/type-generator.md core/agents/
 
 # Enable a skill category
-mkdir -p core/skills
 cp -r examples/skills/next core/skills/
 
 # Enable multiple skills
@@ -205,6 +242,101 @@ Project-specific quality requirements.
 ```
 
 This file persists context across Claude Code sessions.
+
+## Preset System
+
+The starter kit includes 6 predefined configurations:
+
+### Available Presets
+
+**minimal** - Core components only
+- 3 core agents
+- 9 core commands
+- No additional skills
+
+**nextjs-full** - Complete Next.js development
+- All Next.js skills (8)
+- React skills (2)
+- Recommended: quality-focused hooks
+
+**stripe-commerce** - E-commerce platform
+- Next.js + React + Stripe skills
+- Recommended: security-focused hooks
+- Environment variables: STRIPE_*
+
+**fullstack-saas** - Production SaaS
+- Next.js + React + Stripe + Supabase + DevOps
+- Recommended: all hooks
+- Environment variables: STRIPE_*, SUPABASE_*
+
+**react-focused** - React development
+- React skills
+- use-effect-less agent
+- Recommended: react-focused hooks
+
+**devops-complete** - CI/CD automation
+- GitHub Actions + git hooks + Vercel skills
+- Recommended: security-focused hooks
+
+### Creating Custom Presets
+
+Create `.claude/presets/my-preset.json`:
+
+```json
+{
+  "name": "my-preset",
+  "description": "Custom configuration for my stack",
+  "skills": ["next", "stripe", "d3"],
+  "agents": [],
+  "commands": [],
+  "hooks": ["security_scan", "code_quality"],
+  "env": {
+    "FRAMEWORK": "nextjs",
+    "ENABLE_STRIPE": "true",
+    "ENABLE_D3": "true"
+  },
+  "recommended": {
+    "hooks": "security-focused",
+    "envVars": ["STRIPE_SECRET_KEY", "D3_API_KEY"]
+  }
+}
+```
+
+Apply with:
+```bash
+./setup.sh --preset my-preset
+```
+
+## Environment Configuration
+
+### Using .env.example
+
+The setup script generates `.env.example` with placeholders for all integrations:
+
+```bash
+# After setup
+cp .env.example .env
+# Edit .env with your actual values
+```
+
+### Required Variables by Integration
+
+**Stripe:**
+- STRIPE_SECRET_KEY
+- STRIPE_PUBLISHABLE_KEY
+- STRIPE_WEBHOOK_SECRET
+
+**Supabase:**
+- SUPABASE_URL
+- SUPABASE_ANON_KEY
+- SUPABASE_SERVICE_ROLE_KEY
+
+**Vercel:**
+- VERCEL_TOKEN
+- VERCEL_ORG_ID
+- VERCEL_PROJECT_ID
+
+The `/self-test` command validates environment configuration.
 
 ## Best Practices
 

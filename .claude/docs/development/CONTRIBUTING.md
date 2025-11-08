@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing! This guide will help you get started.
 
-## 🎯 Ways to Contribute
+## Ways to Contribute
 
 - **New Agents**: Specialized agents for specific domains (GraphQL, Prisma, etc.)
 - **New Skills**: Additional library/framework skills (Vue, Svelte, Angular, etc.)
@@ -12,7 +12,7 @@ Thank you for your interest in contributing! This guide will help you get starte
 - **Bug Fixes**: Issues, edge cases, error handling
 - **Performance**: Optimization, caching, parallelization
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Fork and Clone
 
@@ -180,9 +180,9 @@ git push origin feature/your-feature-name
 2. Click "New Pull Request"
 3. Select your branch
 4. Fill out the PR template (see below)
-5. Submit!
+5. Submit the pull request
 
-## 📝 Pull Request Template
+## Pull Request Template
 
 ```markdown
 ## Description
@@ -221,7 +221,7 @@ Brief description of what this PR adds/fixes.
 Paste examples of your component in action.
 ```
 
-## 🎨 Style Guidelines
+## Style Guidelines
 
 ### Agent/Skill Descriptions
 - **Start with action**: "PROACTIVELY use when..." or "Use when..."
@@ -294,7 +294,7 @@ What actually happens.
 Paste relevant error messages or logs.
 ```
 
-## 💡 Feature Requests
+## Feature Requests
 
 We welcome feature requests! Please provide:
 
@@ -304,7 +304,7 @@ We welcome feature requests! Please provide:
 4. **Examples**: Similar features in other tools
 5. **Priority**: How important is this to you?
 
-## 🔍 Code Review Process
+## Code Review Process
 
 1. **Automated Checks**: Must pass (if GitHub Actions enabled)
 2. **Manual Review**: Maintainer reviews code quality
@@ -312,22 +312,22 @@ We welcome feature requests! Please provide:
 4. **Documentation**: Ensure docs are clear and complete
 5. **Approval**: Maintainer approves and merges
 
-## 🏅 Recognition
+## Recognition
 
 Contributors will be:
 - Listed in the project README
 - Credited in release notes
-- Thanked in the Claude Code community!
+- Thanked in the Claude Code community
 
-## 📞 Questions?
+## Questions
 
 - **GitHub Discussions**: For questions and ideas
 - **GitHub Issues**: For bugs and feature requests
 - **Pull Requests**: For code contributions
 
-## 📜 Code of Conduct
+## Code of Conduct
 
-Be respectful, inclusive, and professional. We're all here to build something great together!
+Be respectful, inclusive, and professional. We are all here to build something great together.
 
 ---
 

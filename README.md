@@ -10,35 +10,75 @@ A complete Claude Code setup with core components enabled by default and 50+ opt
 
 **Core Features (Enabled)**
 - 3 essential agents: Security auditor, database architect, API builder
-- 3 core commands: Build-safe, sync-types, db-migrate
+- 9 core commands: Build, types, migrations, git workflows, validation
 - Minimal configuration
 
 **Optional Features (Examples)**
-- 4 specialized agents
-- 40+ framework-specific skills
-- 9 quality automation hooks
-- Additional commands
+- 6 specialized agents
+- 39 skills across 12 categories
+- 10 quality automation hooks
+- 7 additional commands
 
 ## Installation
 
-```bash
-# Copy to your project
-cp -r .claude /path/to/your/project/
+### Automated Setup (Recommended)
 
-# Start Claude Code
+```bash
+# Clone the starter kit
+git clone https://github.com/raintree-technology/claude-starter
+cd claude-starter
+
+# Run setup in your project directory
 cd /path/to/your/project
-claude
+/path/to/claude-starter/setup.sh --interactive
 ```
 
-Core components work immediately. Enable optional features as needed.
+The setup script will:
+- Detect your framework and dependencies
+- Copy relevant skills automatically
+- Generate environment template
+- Provide next steps
+
+### Quick Setup with Presets
+
+```bash
+# Next.js full stack
+./setup.sh --preset nextjs-full
+
+# E-commerce with Stripe
+./setup.sh --preset stripe-commerce
+
+# Production SaaS (Next.js + Stripe + Supabase + DevOps)
+./setup.sh --preset fullstack-saas
+
+# See all presets
+./setup.sh --help
+```
+
+### Manual Setup
+
+```bash
+# Copy .claude/ directory to your project
+cp -r /path/to/claude-starter/.claude /path/to/your/project/
+
+# Manually enable skills as needed
+cp -r .claude/examples/skills/next .claude/core/skills/
+```
 
 ## Quick Start
+
+**Auto-detected setup**
+```bash
+# If you have package.json with Next.js, Stripe, etc.
+./setup.sh  # Detects and asks to auto-configure
+```
 
 **Use core commands**
 ```bash
 /build-safe    # Validate and build
 /sync-types    # Sync database types
 /db-migrate    # Run migrations
+/self-test     # Validate entire setup
 ```
 
 **Core agents activate automatically**
@@ -48,14 +88,14 @@ Core components work immediately. Enable optional features as needed.
 
 **Enable optional features**
 ```bash
-# Add Next.js skills
+# Using setup script (recommended)
+./setup.sh --stack next,stripe,supabase
+
+# Or enable specific presets
+/enable-hook quality-focused
+
+# Manual method
 cp -r .claude/examples/skills/next .claude/core/skills/
-
-# Add type generator agent
-cp .claude/examples/agents/type-generator.md .claude/core/agents/
-
-# Enable security hook
-# Edit .claude/settings.json (see docs)
 ```
 
 ## Structure
@@ -85,9 +125,34 @@ cp .claude/examples/agents/type-generator.md .claude/core/agents/
 - `api-builder` - Structured endpoints with error handling
 
 **Commands**
-- `/build-safe` - Full validation pipeline
-- `/sync-types` - Type synchronization
-- `/db-migrate` - Database migrations
+- `/build-safe` - Full validation pipeline (lint, type-check, test, build)
+- `/sync-types` - Synchronize database types with schema
+- `/db-migrate` - Run database migrations with validation
+- `/health-check` - System health validation and diagnostics
+- `/commit` - Smart commit messages with conventional commits
+- `/create-pr` - Create PR with auto-generated description, labels, issue links
+- `/release` - Automated releases with changelog generation, npm publishing
+- `/enable-hook` - Enable quality automation hooks with presets
+- `/self-test` - Comprehensive validation of entire Claude Code setup
+
+## Git Workflows
+
+**Automated Git Operations**
+- `/create-pr` - Generate PR with description from commits, auto-label, link issues
+- `/release` - Semantic versioning, changelog, GitHub releases, npm publishing
+- `/commit` - Analyze changes and create conventional commit messages
+
+**CI/CD Workflows** (.github/workflows/)
+- `ci.yml` - Test, lint, type-check on push/PR
+- `deploy.yml` - Automatic Vercel deployment with preview URLs
+- `release.yml` - Automated releases on tag push
+
+**Skills for Automation** (examples/skills/)
+- `github-actions-architect` - Generate CI/CD workflows
+- `git-hooks-architect` - Set up Husky, lint-staged, commitlint
+- `vercel-deploy-architect` - Configure Vercel deployments
+
+See [.claude/docs/workflows.md](.claude/docs/workflows.md) for complete workflow guide.
 
 ## Optional Features
 
@@ -104,7 +169,7 @@ cp .claude/examples/agents/type-generator.md .claude/core/agents/
 - Supabase (2 skills) - Auth, RLS, storage
 - D3 (5 skills) - Visualizations, geo, layouts
 - Bun (5 skills) - Runtime, bundler, testing
-- Aptos (5 skills) - Blockchain development
+- Shelby (4 skills) - Decentralized storage, media streaming
 
 **Hooks** (examples/hooks/)
 - TypeScript/lint validation
@@ -124,30 +189,52 @@ See [examples/README.md](.claude/examples/README.md) for complete list and enabl
 
 ## Customization
 
+### Using Setup Script (Easiest)
+
+```bash
+# Interactive mode - guided Q&A
+./setup.sh --interactive
+
+# Preset configurations
+./setup.sh --preset fullstack-saas
+
+# Stack-based selection
+./setup.sh --stack next,stripe,supabase
+
+# View all options
+./setup.sh --help
+```
+
+### Available Presets
+
+- **minimal** - Core only (default)
+- **nextjs-full** - Complete Next.js setup
+- **stripe-commerce** - E-commerce with Stripe
+- **fullstack-saas** - Next.js + Stripe + Supabase + DevOps
+- **react-focused** - React development
+- **devops-complete** - CI/CD automation
+
+See [.claude/presets/README.md](.claude/presets/README.md) for details.
+
+### Manual Configuration
+
 **Enable a skill**
 ```bash
-mkdir -p .claude/core/skills
 cp -r .claude/examples/skills/stripe .claude/core/skills/
 ```
 
-**Enable a hook**
-Edit `.claude/settings.json`:
-```json
-{
-  "hooks": {
-    "PostToolUse": [{
-      "matcher": "Edit|Write",
-      "hooks": [{
-        "type": "command",
-        "command": "$CLAUDE_PROJECT_DIR/.claude/examples/hooks/security_scan.ts"
-      }]
-    }]
-  }
-}
+**Enable hooks**
+```bash
+/enable-hook quality-focused
+# or
+/enable-hook security-focused
 ```
 
-**Create custom agent**
-Create `.claude/core/agents/my-agent.md` with YAML frontmatter.
+**Environment configuration**
+```bash
+cp .env.example .env
+# Edit .env with your API keys and settings
+```
 
 See [docs/customization.md](.claude/docs/customization.md) for complete guide.
 

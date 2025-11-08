@@ -8,7 +8,7 @@
 
 ## What is TOON?
 
-**TOON (Tokenization-Optimized Object Notation)** is a data format that reduces LLM token consumption by **40-61%** compared to JSON. Perfect for:
+**TOON (Tokenization-Optimized Object Notation)** is a data format that reduces LLM token consumption by **40-61%** compared to JSON. Suitable for:
 
 - 🎯 Claude API context optimization
 - 📊 Large dataset exports (10K+ records)
@@ -449,7 +449,7 @@ console.log(`Annual savings: $${cost.annualSavings.toFixed(2)}`);
 7. ⏳ **Deploy to production** with feature flag
 8. ⏳ **Track savings** over 30 days
 9. ⏳ **Expand to more endpoints** based on results
-10. ⏳ **Build client SDK** for seamless adoption
+10. ⏳ **Build client SDK** for straightforward adoption
 
 ---
 

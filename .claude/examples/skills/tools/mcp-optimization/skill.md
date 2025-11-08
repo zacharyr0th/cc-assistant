@@ -48,7 +48,7 @@ console.log(pending.slice(0, 5)); // Show first 5 for review
 // Result: 500 tokens instead of 500,000 (99.9% reduction)
 ```
 
-### 3. Powerful Control Flow
+### 3. Advanced Control Flow
 Use native code patterns instead of chaining tool calls:
 
 **Traditional Approach**:

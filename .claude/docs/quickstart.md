@@ -4,9 +4,43 @@ Get up and running with Claude Starter Kit in 5 minutes.
 
 ## Installation
 
-Copy the `.claude/` directory to your project:
+### Automated Setup (Recommended)
 
 ```bash
+# Clone the starter kit
+git clone https://github.com/raintree-technology/claude-starter
+cd claude-starter
+
+# Run setup in your project directory
+cd /path/to/your/project
+/path/to/claude-starter/setup.sh --interactive
+```
+
+The setup script will:
+- Auto-detect your framework and dependencies
+- Copy relevant skills automatically
+- Generate .env.example with your integrations
+- Provide configuration recommendations
+
+### Quick Preset Setup
+
+```bash
+# Next.js full stack
+./setup.sh --preset nextjs-full
+
+# E-commerce with Stripe
+./setup.sh --preset stripe-commerce
+
+# Production SaaS
+./setup.sh --preset fullstack-saas
+```
+
+See [Preset System](../presets/README.md) for all available presets.
+
+### Manual Setup
+
+```bash
+# Copy .claude/ directory to your project
 cp -r /path/to/claude-starter/.claude /path/to/your/project/
 cd /path/to/your/project
 ```
@@ -46,29 +80,32 @@ These agents work automatically:
 - **database-architect** - Helps with schema design and migrations
 - **api-builder** - Assists when creating API endpoints
 
-Just start coding and they'll activate when relevant.
+Begin development and they will activate when relevant.
 
 ## Adding Optional Features
 
-### Enable a Skill
+### Using Setup Script (Recommended)
 
-For Next.js projects:
-
+**Add specific skills:**
 ```bash
-mkdir -p .claude/core/skills
-cp -r .claude/examples/skills/next .claude/core/skills/
+./setup.sh --stack next,stripe,supabase
 ```
 
-For Stripe:
-
+**Enable hooks:**
 ```bash
+/enable-hook quality-focused
+/enable-hook security-focused
+```
+
+### Manual Method
+
+**Enable a skill:**
+```bash
+cp -r .claude/examples/skills/next .claude/core/skills/
 cp -r .claude/examples/skills/stripe .claude/core/skills/
 ```
 
-### Enable a Hook
-
-Edit `.claude/settings.json`:
-
+**Enable hooks** - Edit `.claude/settings.json`:
 ```json
 {
   "hooks": {
@@ -87,8 +124,7 @@ Edit `.claude/settings.json`:
 }
 ```
 
-### Enable an Agent
-
+**Enable an agent:**
 ```bash
 cp .claude/examples/agents/type-generator.md .claude/core/agents/
 ```

@@ -162,7 +162,7 @@ await jobQueue.send('process-plaid-webhook', { webhook });
 ## Code Quality Standards
 
 - **Max function length**: 50 lines
-- **Max file length**: 300 lines (current plaid-sync.ts violates this!)
+- **Max file length**: 300 lines (current plaid-sync.ts violates this)
 - **Type safety**: No `any` types, use Plaid SDK types
 - **Error handling**: Always wrap Plaid API calls in try-catch
 - **Logging**: Use structured logging with context

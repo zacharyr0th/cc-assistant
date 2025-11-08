@@ -19,10 +19,20 @@ A production-ready configuration for Claude Code featuring:
 
 ## Getting Started
 
+**Automated Setup (Recommended):**
+```bash
+./setup.sh --interactive
+# or
+./setup.sh --preset nextjs-full
+```
+
+**Manual Setup:**
 1. Copy `.claude/` to your project
 2. Start Claude Code
 3. Core components work out of the box
 4. Enable optional features from `examples/` as needed
+
+See [Quick Start](quickstart.md) for detailed instructions.
 
 ## Structure
 
@@ -42,16 +52,15 @@ A production-ready configuration for Claude Code featuring:
 
 ## Common Tasks
 
-**Enable a skill**
+**Enable skills (automated)**
 ```bash
-cp -r examples/skills/next core/skills/
+./setup.sh --stack next,stripe,supabase
 ```
 
-**Enable a hook**
-Edit `settings.json` to reference the hook from examples.
-
-**Add custom agent**
-Create `.claude/core/agents/my-agent.md` with YAML frontmatter.
+**Enable hooks**
+```bash
+/enable-hook quality-focused
+```
 
 **View all available components**
 ```bash
@@ -59,6 +68,13 @@ ls examples/agents
 ls examples/skills
 ls examples/hooks
 ```
+
+**Manual skill enablement**
+```bash
+cp -r examples/skills/next core/skills/
+```
+
+See [Customization Guide](customization.md) for more options.
 
 ## Advanced Topics
 

@@ -1,6 +1,27 @@
 # Examples
 
-Optional components you can enable by copying to the appropriate location.
+Optional components you can enable using the setup script or by copying manually.
+
+## Quick Setup
+
+### Using setup.sh (Recommended)
+
+```bash
+# Interactive mode - guided setup
+./setup.sh --interactive
+
+# Use a preset configuration
+./setup.sh --preset nextjs-full
+./setup.sh --preset fullstack-saas
+
+# Select specific technologies
+./setup.sh --stack next,stripe,supabase
+
+# Auto-detect from package.json
+./setup.sh
+```
+
+See [setup.sh documentation](../presets/README.md) for all presets and options.
 
 ## Structure
 
@@ -8,11 +29,12 @@ Optional components you can enable by copying to the appropriate location.
 examples/
 ├── agents/          # Specialized agents for specific domains
 ├── commands/        # Additional slash commands
-├── skills/          # Framework and library-specific skills
-└── hooks/           # Quality automation hooks
+├── skills/          # Framework and library-specific skills (39 skills, 12 categories)
+├── hooks/           # Quality automation hooks (10 hooks + 2 utilities)
+└── patterns/        # Output formatting patterns
 ```
 
-## Enabling Components
+## Enabling Components Manually
 
 ### Agents
 
@@ -32,8 +54,12 @@ cp examples/commands/clear-cache.md core/commands/
 
 ### Skills
 
-Copy to `.claude/core/skills/` (create if needed):
+**Using setup script:**
+```bash
+./setup.sh --stack next
+```
 
+**Manual:**
 ```bash
 mkdir -p core/skills
 cp -r examples/skills/next core/skills/
@@ -41,7 +67,13 @@ cp -r examples/skills/next core/skills/
 
 ### Hooks
 
-Update `.claude/settings.json` to reference hooks from examples:
+**Using command (recommended):**
+```bash
+/enable-hook quality-focused
+/enable-hook security-focused
+```
+
+**Manual - update `.claude/settings.json`:**
 
 ```json
 {
